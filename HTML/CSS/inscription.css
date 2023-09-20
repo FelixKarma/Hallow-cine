@@ -1,0 +1,14 @@
+body {
+background-color: black;
+
+}
+
+main {
+color: antiquewhite;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-right: 20px;
+
+
+}
