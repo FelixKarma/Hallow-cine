@@ -1,0 +1,50 @@
+.chemin {
+text-align: left;
+margin-left: 20px;
+}
+
+main {
+color: antiquewhite;
+border-radius: 10px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+body {
+background-image: url(../Image/bgactu.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+
+}
+
+a{
+outline: none;
+text-decoration: none;
+
+
+}
+
+a:link {
+color: antiquewhite;
+
+}
+
+a:visited {
+color: antiquewhite;
+
+}
+
+.div1 {
+    background-color: rgb(0, 0, 0);
+    opacity: 75%;
+    
+
+}
+
+.div2 {
+    background-color: rgb(0, 0, 0);
+    opacity: 75%;
+   
+}

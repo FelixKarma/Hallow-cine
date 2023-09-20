@@ -12,3 +12,8 @@ margin-left: 10px;
 align-items: center;
 
 }
+
+[type*="text"], [type*="email"], [type*="password"]{
+width: 216px;
+
+}
