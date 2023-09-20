@@ -1,0 +1,14 @@
+body {
+background-color: black;
+
+}
+
+main {
+color: antiquewhite;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-left: 10px;
+align-items: center;
+
+}

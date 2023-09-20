@@ -1,0 +1,25 @@
+main {
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+color: antiquewhite;
+
+}
+
+.connexion {
+text-align: center;
+
+}
+
+
+
+body {
+background-color: black;
+
+}
+
+.popcorn {
+display: block;
+align-self: flex-end;
+
+}

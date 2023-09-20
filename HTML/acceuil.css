@@ -1,0 +1,17 @@
+header{
+    background-color: hover;
+
+    
+}
+body{
+    background-image: url("Image/Acceuil.jpg");
+    background-size:100%;
+}
+img.push{
+    height: 180px;
+    width: 180px;
+    position:absolute;
+    left: 72%;
+    top: 370px;
+}
+
