@@ -1,184 +1,183 @@
 <!DOCTYPE html>
 <html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Catalogue</title>
-    <link rel="stylesheet" href="CSS/footer.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="CSS/Catalogue.css">
+    <link rel="stylesheet" href="CSS/footer.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/Catalogue.css" />
+  </head>
 
-
-</head>
-
-<body>
-
-
-
+  <body>
     <header>
-        <div> <img src="Image/logo proj.png" alt="proj" height="120"></div>
-        <div>
-            <h1>Hallow'ciné</h1>
+      <div><img src="Image/logo proj.png" alt="proj" height="120" /></div>
+      <div>
+        <h1>Hallow'ciné</h1>
+      </div>
+      <div style="text-align: right">
+        <a href=""
+          ><button><img src="Image/vector.png" alt="" height="25" /></button
+        ></a>
+      </div>
+      <div style="text-align: right">
+        <a href=""
+          ><button>
+            <img src="Image/ph_bag-light.png" alt="" height="25" /></button
+        ></a>
+      </div>
+      <div>
+        <a href=""><button>Histoire</button></a>
+        <a href=""><button>Actualité</button></a>
+        <a href=""><button>Catalogue</button></a>
+        <a href=""><button>E-Shop</button></a>
+        <a href=""><button>Contact</button></a>
+        <div style="text-align: right">
+          <input
+            type="text"
+            name="search"
+            id="search"
+            placeholder="Recherche"
+          />
         </div>
-        <div style="text-align: right;">
-            <a href=""><button><img src="Image/vector.png" alt="" height="25"></button></a>
-        </div>
-        <div style="text-align: right;">
-            <a href=""><button><img src="Image/ph_bag-light.png" alt="" height="25"></button></a>
-        </div>
-        <div>
-            <a href=""><button>Histoire</button></a>
-            <a href=""><button>Actualité</button></a>
-            <a href=""><button>Catalogue</button></a>
-            <a href=""><button>E-Shop</button></a>
-            <a href=""><button>Contact</button></a>
-            <div style="text-align: right;">
-                <input type="text" name="search" id="search" placeholder="Recherche">
-            </div>
-        </div>
+      </div>
     </header>
     <!-- header -->
     <main>
-        <!-- Lien catalogue vers accueil -->
-        <div>
-            <a href="accueil.html">Accueil></a><a href="catalogue.html">catalogue</a>
-        </div>
+      <!-- Lien catalogue vers accueil -->
+      <div>
+        <a href="accueil.html">Accueil></a
+        ><a href="catalogue.html">catalogue</a>
+      </div>
 
-        <div class="container">
+      <div class="container">
+        <select name="Trieur" id="Trieur">
+          <option value="trier par" disabled selected>Trier par</option>
+          <option value="Le plus récent">Le plus récent</option>
+          <option value="Le plus ancien">Le plus ancien</option>
+          <option value="Note croissante">Note croissante</option>
+        </select>
 
-            <select name="Trieur" id="Trieur">
-                <option value="trier par" disabled selected>Trier par</option>
-                <option value="Le plus récent">Le plus récent</option>
-                <option value="Le plus ancien">Le plus ancien</option>
-                <option value="Note croissante">Note croissante</option>
-            </select>
+        <select name="Catégories" id="Catégories">
+          <option value="Catégories" disabled selected>Catégories</option>
+          <option value="Fantastique">Fantastique</option>
+          <option value="horreur">Horreur</option>
+          <option value="Science-Fiction">Science Fiction</option>
+          <option value="Thriller">Thriller</option>
+          <option value="Drame">Drame</option>
+        </select>
 
-            <select name="Catégories" id="Catégories">
-                <option value="Catégories" disabled selected>Catégories</option>
-                <option value="Fantastique">Fantastique</option>
-                <option value="horreur">Horreur</option>
-                <option value="Science-Fiction">Science Fiction</option>
-                <option value="Thriller">Thriller</option>
-                <option value="Drame">Drame</option>
-            </select>
+        <select name="Type" id="Type">
+          <option value="Type" disabled selected>Type</option>
+          <option value="Film">Film</option>
+          <option value="Série">Série</option>
+          <option value="Podcast">Podcast</option>
+        </select>
+      </div>
 
+      <div>
+        <figure class="affiche">
+          <img src="./Image/penny.png" alt="Affiche Penny Dreadfull" />
 
-            <select name="Type" id="Type">
-                <option value="Type" disabled selected>Type</option>
-                <option value="Film">Film</option>
-                <option value="Série">Série</option>
-                <option value="Podcast">Podcast</option>
+          <img src="./Image/heredite.png" alt="Affiche Hérédité" />
 
-            </select>
+          <img
+            src="./Image/Haunting of Hill House.png"
+            alt="Haunting of Hill House"
+          />
 
-        </div>
+          <img
+            src="./Image/Affiche Scream.png"
+            alt="Affiche Scream"
+            height="290"
+          />
 
-        <div>
+          <img src="./Image/SAW.png" alt="Affiche SAW.png" />
 
-            <figure>
+          <img
+            src="./Image/Affiche Supernatural.png"
+            alt="Affiche Supernatural"
+          />
 
-                <img src="./Image/penny.png" alt="Affiche Penny Dreadfull">
+          <img src="./Image/ca.png" alt="Affiche çà " />
 
-                <br>
+          <img
+            src="./Image/strangerthing.png"
+            alt="Affiche Stranger Things"
+            height="290"
+          />
 
-                <img src="./Image/heredite.png" alt="Affiche Hérédité">
+          <img src="./Image/izombie.png" alt="izombie." height="280" />
 
-                <br>
-
-                <img src="./Image/Haunting of Hill House.png" alt="Haunting of Hill House">
-
-                <br>
-
-                <img src="/Image/Scream.png" alt="Affiche Scream" height="290">
-
-                <br>
-
-                <img src="./Image/SAW.png" alt="Affiche SAW.png">
-
-                <br>
-
-                <img src="./Image/supernatural.jpg" alt="Affiche Supernatural">
-
-                <br>
-
-                <img src=".//Image/aff" alt="Affiche çà ">
-
-                <br>
-
-                <img src="Affiche Stranger Things.png" alt="Affiche Stranger Things" height="290">
-
-                <br>
-
-                <img src="izombie.png" alt="izombie." height="280">
-
-                <br>
-
-                <img src="Affiche Scream Queens.png" alt="Affiche Scream Queens">
-
-                <br>
-
-                <img src="Affiche American Horror Story.png" alt="Affiche American Horror Story">
-
-
-            </figure>
-
-        </div>
+          <img
+            src="./Image/Affiche Scream Queens.png"
+            alt="Affiche Scream Queens"
+          />
+          <img src="./Image/AHS.png" alt="Affiche American Horror Story" />
+        </figure>
+      </div>
     </main>
     <!-- footer -->
     <footer>
-        <nav>
-            <figure>
-                <img src="Image/logo_proj-removebg-preview.png" alt="" class="logo">
-            </figure>
-            <div>
-                <h4>Adresse</h4>
-                <p>4 avenue des Saules <br><br>
-                    59150 Lille <br></p>
-            </div>
-            <div>
-                <h4>Contact</h4>
-                <p>03 20 118 218 <br><br>
-                    hallowcine@hallowcine.com</p>
-            </div>
+      <nav>
+        <figure>
+          <img src="Image/logo_proj-removebg-preview.png" alt="" class="logo" />
+        </figure>
+        <div>
+          <h4>Adresse</h4>
+          <p>
+            4 avenue des Saules <br /><br />
+            59150 Lille <br />
+          </p>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <p>
+            03 20 118 218 <br /><br />
+            hallowcine@hallowcine.com
+          </p>
+        </div>
 
-            <div>
-                <h4>Rejoignez notre Newsletter</h4>
-                <form action="#" method="post">
-                    <input type="email" name="" id="" placeholder="Entrez votre adresse mail">
-                    <button type="submit">Rejoindre</button>
-                </form>
+        <div>
+          <h4>Rejoignez notre Newsletter</h4>
+          <form action="#" method="post">
+            <input
+              type="email"
+              name=""
+              id=""
+              placeholder="Entrez votre adresse mail"
+            />
+            <button type="submit">Rejoindre</button>
+          </form>
+        </div>
 
-            </div>
+        <div class="reso">
+          <a href="https://www.facebook.com/" target="_blank">
+            <img src="Image/fefacebook2.png" alt="facebook"
+          /></a>
 
-            <div class="reso">
-                <a href="https://www.facebook.com/" target="_blank">
+          <a href="https://twitter.com/" target="_blank">
+            <img src="Image/Twitter.png" alt="twitter"
+          /></a>
 
-                    <img src="Image/fefacebook2.png" alt="facebook"></a>
+          <a href="https://www.tiktok.com/fr/" target="_blank">
+            <img src="Image/Tik Tok.png" alt="tiktok"
+          /></a>
 
-                <a href="https://twitter.com/" target="_blank">
+          <a href="https://www.linkedin.com/feed//" target="_blank">
+            <img src="Image/Linked In.png" alt="linkedin"
+          /></a>
 
-                    <img src="Image/Twitter.png" alt="twitter"></a>
-
-                <a href="https://www.tiktok.com/fr/" target="_blank">
-
-                    <img src="Image/Tik Tok.png" alt="tiktok"></a>
-
-                <a href="https://www.linkedin.com/feed//" target="_blank">
-
-                    <img src="Image/Linked In.png" alt="linkedin"></a>
-
-                <a href="https://www.youtube.com/" target="_blank">
-
-                    <img src="Image/Youtube.png" alt="youtube"></a>
-
-            </div>
-
-
-        </nav>
+          <a href="https://www.youtube.com/" target="_blank">
+            <img src="Image/Youtube.png" alt="youtube"
+          /></a>
+        </div>
+      </nav>
     </footer>
     <script src="FilmDark.js"></script>
-</body>
-
+  </body>
 </html>

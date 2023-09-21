@@ -2,6 +2,7 @@
 body
 {
     background-color: black;
+    min-height: 100vh;
 }
 
 .trierpar {
@@ -23,14 +24,37 @@ body
 .container {
     display: flex;
     flex-direction: row;
-    margin-left: 100px;
+    margin-left: 26px;
     justify-content:flex-start;
     justify-content: space-around;
     width: 35%; 
+    
 }
 
 select {
 background-color: black;
 color: white;
-colo
+}
+
+figure {
+display: flex;
+flex-wrap: wrap;
+margin: 40px;
+align-items:flex-end;
+margin-top: 
+
+
+
+
+}
+
+.affiche img  { 
+margin: 20px;   
+margin-top: 30px;
+max-height: 194px; 
+
+}
+
+main {
+    min-height: 100vh;
 }
