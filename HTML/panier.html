@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>panier</title>
     <link rel="stylesheet" href="CSS/footer.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/panier.css">
 </head>
 <body>
     <header>
@@ -33,24 +34,27 @@
       </div>
         </div>   
     </header>
-    <div>
+    <div class="chemin">
         <a href="accueil.html">Accueil></a><a href="panier.html">Panier</a>
     </div>
 
     <main>
         <div>
-            <h1>Panier</h1>
-            <h3>Votre panier est vide</h3>
-            <h4>shop or dead</h4><br>
+            <h1>PANIER</h1>
+            <h4>Shop or dead</h4><br>
 
             <img src="Image/Caddie.jpg" alt="caddie" height="200">
-
-            <a href=""><button>Achetez</button></a>
+            <h4>Total: </h4>
 
         </div>
+<div class="mid">
+    <img src="Image/pagepanier.png" alt="scream">
+        <button type="valide" class="valide">VALIDEZ VOTRE ACHAT</button>
+</div>
         <form action="#" method="post">
-            <h2>PANIER</h2>
+            <h2>VOS INFORMATIONS DE LIVRAISON</h2>
             <br><br>
+            <div class="infos">
         <label for="nom"><input type="text" name="nom" id="nom" placeholder="NOM"></label>
         <br><br>
         <label for="prenom"><input type="text" name="" id="" placeholder="PRENOM"></label>
@@ -62,7 +66,7 @@
         <label for="ville"><input type="text" name="" id="" placeholder="VILLE"></label>
         <br><br>
         
-        <label for="moyenpaiement"> 
+        <label for="moyenpaiement" class="moyenpaiement"> 
             <input type="radio" name="moyen" id="paypal"> Paypal
         <br>
             <input type="radio" name="moyen" id="googlepay"> Google Pay
@@ -78,11 +82,14 @@
         <br><br>
         <label for="ccv"><input type="text" name="" id="" placeholder="CCV"></label>
         <br><br>
-        <button type="valide">VALIDEZ VOTRE ACHAT</button>
+    </div>
         
         </form>
-    </main>
+        
+       
 
+    </main>
+<br><br>
 
     <footer>
         <nav>
