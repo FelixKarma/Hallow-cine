@@ -1,0 +1,36 @@
+
+body
+{
+    background-color: black;
+}
+
+.trierpar {
+    display: flex;
+    
+    
+}
+
+.categories {
+    display: flex;
+    
+}
+
+.type {
+    display: flex;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    justify-content:flex-start;
+    justify-content: space-around;
+    width: 35%; 
+}
+
+select {
+background-color: black;
+color: white;
+colo
+}
