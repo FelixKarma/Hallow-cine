@@ -6,6 +6,7 @@ header{
 body{
     background-image: url("Image/Acceuil.jpg");
     background-size:100%;
+    overflow-x: hidden;
 }
 img.push{
     height: 180px;
@@ -14,4 +15,14 @@ img.push{
     left: 72%;
     top: 370px;
 }
-
+/* footer{
+    position: absolute;
+    bottom:0px;
+    width: 100%;
+} */
+main{
+    height: 100vh;
+}
+.entete{
+    color:white;
+}

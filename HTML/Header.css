@@ -1,6 +1,7 @@
 .logo {
     width: 150px;
     height: 150px;
+    color:white;
 }
 
 button  {
@@ -32,7 +33,7 @@ button  {
 }
 h1{
     font-family:'Metal Mania';
-    color: black;
+    color: white;
     font-size: 60px;
 
 }
@@ -55,9 +56,16 @@ input.recherche{
     background-color:rgb(114, 26, 26) ;
     display: flex;
     font-family: 'Roboto';
-    border-radius: 30px;
+    border-radius: 50px;
     color: white;
     
+}
+.loupe{
+    position:relative;
+    top: 3px;
+    right: 25px;
+    
+
 }
 
 .navigation{
@@ -88,3 +96,4 @@ header {
 
     
 }
+
