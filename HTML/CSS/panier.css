@@ -1,45 +1,85 @@
 main {
-display: flex;
-flex-direction: row;
-justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 body {
-background-color: black;
-color: antiquewhite;
+  background-color: black;
+  color: rgb(4, 4, 4);
+}
+
+.panier
+{
+color: rgb(218, 217, 217);
 }
 
 .valide {
-height: 75px;
-width: 300px;
-align-self: flex-end;
+  height: 75px;
+  width: 300px;
+  align-self: flex-end;
 }
 
-.chemin{
-    text-align: left;
-    margin-left: 20px;
-    
-    }
+.chemin {
+  text-align: left;
+  margin-left: 20px;
+}
 
-.chemin a{
-color: antiquewhite;
-    text-decoration: none;
+.chemin a {
+  color: antiquewhite;
+  text-decoration: none;
+}
 
+.infos {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1px;
+  align-items: center;
+  
+  
+}
+
+.infos input[type*="text"]{
+  padding-top:10px ;
+  padding-bottom:10px ;
+  margin-bottom: 10px;
+  border-radius: 10px;
+width: 70%;
+}
+
+.infotitre {
+   width: auto;
+}
+
+.moyenpaiement  {
+text-align: left;
+color: rgb(226, 226, 228);
+  
+}
+
+.mid {
+  display: flex;
+  flex-direction: column;
 }
 
 
-   .infos {
-justify-content: center;
+  fieldset {
 
-   }
+  display: flex;
+  flex-direction: column;
+  height: 100px; 
+  width: 150px;
+  align-items: center;
+  float: right;
 
-   .moyenpaiement{
-    display: flex;
-    justify-content: left;
-       }
+  }
 
-   .mid {
-display: flex;
-flex-direction: column;
+  .caddie 
+  { 
+    border-radius: 10px;
+  }
 
-   }
+  .valide 
+  {font-size: larger;}
+
+ 
