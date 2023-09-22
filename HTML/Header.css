@@ -35,7 +35,7 @@ h1{
     font-family:'Metal Mania';
     color: white;
     font-size: 60px;
-
+text-decoration: none;
 }
 
 .navigation nav a button {
@@ -97,3 +97,6 @@ header {
     
 }
 
+a {
+    text-decoration: none;
+}
