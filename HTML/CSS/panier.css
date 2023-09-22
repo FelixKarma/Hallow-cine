@@ -62,6 +62,10 @@ color: rgb(226, 226, 228);
   flex-direction: column;
 }
 
+.chemin a {
+  color: antiquewhite;
+  text-decoration: none;
+}
 
   fieldset {
 
