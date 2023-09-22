@@ -6,7 +6,12 @@ main {
 
 body {
   background-color: black;
-  color: antiquewhite;
+  color: rgb(4, 4, 4);
+}
+
+.panier
+{
+color: rgb(218, 217, 217);
 }
 
 .valide {
@@ -26,24 +31,29 @@ body {
 }
 
 .infos {
-  justify-content: center;
- 
-  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1px;
+  align-items: center;
   
-  margin-top: 15px;
   
-  
+}
+
+.infos input[type*="text"]{
+  padding-top:10px ;
+  padding-bottom:10px ;
+  margin-bottom: 10px;
+  border-radius: 10px;
+width: 70%;
 }
 
 .infotitre {
    width: auto;
 }
 
-.moyenpaiement input {
-display: flex;
-flex-direction:row-reverse;
-
-width: 200px;
+.moyenpaiement  {
+text-align: left;
+color: rgb(226, 226, 228);
   
 }
 
@@ -52,6 +62,10 @@ width: 200px;
   flex-direction: column;
 }
 
+.chemin a {
+  color: antiquewhite;
+  text-decoration: none;
+}
 
   fieldset {
 
@@ -64,11 +78,12 @@ width: 200px;
 
   }
 
-  .container1 {
-
+  .caddie 
+  { 
+    border-radius: 10px;
   }
 
+  .valide 
+  {font-size: larger;}
 
-  .container2 {
-
-  }
+ 

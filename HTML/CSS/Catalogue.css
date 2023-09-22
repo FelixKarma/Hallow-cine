@@ -34,7 +34,7 @@ figure {
   flex-wrap: wrap;
   margin: 40px;
   align-items: flex-end;
-  margin-top: ;
+  
 }
 
 .affiche img {
@@ -45,4 +45,13 @@ figure {
 
 main {
   min-height: 100vh;
+}
+
+
+table {
+  
+  justify-items: center;
+
+
+
 }

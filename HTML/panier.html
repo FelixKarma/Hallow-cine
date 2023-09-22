@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&family=Roboto&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/b08defdd42.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     
     <header>
@@ -48,126 +50,129 @@
 
     <main>
         <div>
-            <h1>PANIER</h1>
-            <h4>Shop or dead</h4><br>
+            <h1 class="panier">PANIER</h1>
+            <h4 class="panier">Shop or dead</h4><br>
 
-            <img src="Image/Caddie.jpg" alt="caddie" class="caddie">
-            <h4>Total: </h4>
+            
+            <img src="Image/Caddie.jpg" alt="caddie" class="caddie" height="130">
+            <h4 class="panier">Total: </h4>
 
-        </div > 
-<div class="mid">
-    <img src="Image/pagepanier.png" alt="scream">
-        <button type="valide" class="valide">VALIDEZ VOTRE ACHAT</button>
-</div>
+        </div>
+        <div class="mid">
+            <img src="Image/pagepanier.png" alt="scream">
+            <button type="valide" class="valide">VALIDEZ VOTRE ACHAT</button>
+        </div>
         <form action="#" method="post">
             <div>
-                <div class="infostitre"><h2>VOS INFORMATIONS DE LIVRAISON</h2></div>
-            
-            <div class="infos"><label for="nom"><input type="text" name="nom" id="nom" placeholder="NOM">
-        
-                <div class="infos"><label for="prenom"><input type="text" name="" id="" placeholder="PRENOM">
-        
-                    <div class="infos"><label for="adresse"><input type="text" name="" id="" placeholder="ADRESSE DE LIVRAISON">
-        
-                        <div class="infos"><label for="postal"><input type="text" name="" id="" placeholder="CODE POSTAL">
-        
-                            <div class="infos"><label for="ville"><input type="text" name="" id="" placeholder="VILLE">
-        </label>
-            </div>
-       
-         
-            
-            <div class="container2">
-        <div class="infos">
-                <input type="radio" name="moyen" id="paypal" >
-                <label for="">Paypal</label>
-                 </div>
+                <div class="infostitre">
+                    <h2>VOS INFORMATIONS DE LIVRAISON</h2>
+                </div>
 
-                 <div class="infos">
-                <input type="radio" name="moyen" id="googlepay"> 
-                <label for="">Google Pay</label>
-                 </div>
+                <div class="infos"><input type="text" name="nom" id="nom" placeholder="NOM">
 
-                 <div class="infos">
-                <input type="radio" name="moyen" id="applepay"> 
-                <label for="">Apple Pay</label>
-            </div>
-            
-             <div class="infos">
-                <input type="radio" name="moyen" id="carte"> Carte
-                <label for="">Carte</label>
-            </div>
-        </div>
+                    <input type="text" name="" id="" placeholder="PRENOM">
 
-        
-        
-            </div>
+                    <input type="text" name="" id="" placeholder="ADRESSE DE LIVRAISON">
 
-        </label>
-        <div class="infos"><label for="numerocarte"><input type="text" name="" id="" placeholder="NUMERO DE CARTE"></label>
-        
-            <div class="infos"><label for="detenteur"><input type="text" name="" id="" placeholder="DETENTEUR DE LA CARTE"></label>
-        
-                <div class="infos"><label for="ccv"><input type="text" name="" id="" placeholder="CCV"></label>
-        
-        </div>
-    </div>
+                    <input type="text" name="" id="" placeholder="CODE POSTAL">
+
+                    <input type="text" name="" id="" placeholder="VILLE">
+
+
+                    <table>
+                        <tr>
+                            <td><input type="radio" name="moyen" id="paypal"></td>
+                            <td class="moyenpaiement"><label for="moyenpaiement">
+                                    Paypal</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="moyen" id="googlepay">
+                            </td>
+                            <td class="moyenpaiement"><label for="moyenpaiement">
+                                    Google Pay</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="moyen" id="applepay"></td>
+                            <td class="moyenpaiement"><label for="moyenpaiement">
+                                    Apple Pay</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="moyen" id="carte"></td>
+                            <td class="moyenpaiement"><label for="moyenpaiement">
+                                    Carte de crédit</label></td>
+                        </tr>
+                    </table>
+
+
+
+
+
+                    <input type="text" name="" id="" placeholder="NUMERO DE CARTE"class="infos">
+
+                    <input type="text" name="" id="" placeholder="DETENTEUR DE LA CARTE"class="infos">
+
+                    <input type="text" name="" id="" placeholder="CCV"class="infos">
+
+                </div>
+            </div>
         </form>
-        
-       
+
+
 
     </main>
-<br><br>
+    <br><br>
 
     <footer>
         <nav>
-            <figure >
+            <figure>
                 <img src="Image/logo_proj-removebg-preview.png" alt="" class="logo">
             </figure>
             <div>
-        <h4>Adresse</h4>
-        <p>4 avenue des Saules <br><br>
-        59150 Lille <br></p>
+                <h4>Adresse</h4>
+                <p>4 avenue des Saules <br><br>
+                    59150 Lille <br></p>
             </div>
             <div>
                 <h4>Contact</h4>
                 <p>03 20 118 218 <br><br>
-                 hallowcine@hallowcine.com</p>
+                    hallowcine@hallowcine.com</p>
             </div>
-        
-        <div>
-        <h4>Rejoignez notre Newsletter</h4>
-        <form action="#" method="post">
-        <input type="email" name="" id="" placeholder="Entrez votre adresse mail">
-        <button type="submit">Rejoindre</button></form>
-        
-        </div>
-        
-           <div class="reso">
-                <a href="https://www.facebook.com/" target="_blank"> 
-        
-                <img src="Image/fefacebook2.png" alt="facebook" ></a>
-            
-                <a href="https://twitter.com/" target="_blank"> 
-        
-                <img src="Image/Twitter.png" alt="twitter"></a>
-            
-                <a href="https://www.tiktok.com/fr/" target="_blank"> 
-        
-                <img src="Image/Tik Tok.png" alt="tiktok"></a>
-            
-                <a href="https://www.linkedin.com/feed//" target="_blank"> 
-        
-                <img src="Image/Linked In.png" alt="linkedin"></a>
-            
-                <a href="https://www.youtube.com/" target="_blank"> 
-        
-                <img src="Image/Youtube.png" alt="youtube"></a>
-            
-        </div>
-        
-        
+
+            <div>
+                <h4>Rejoignez notre Newsletter</h4>
+                <form action="#" method="post">
+                    <input type="email" name="" id="" placeholder="Entrez votre adresse mail">
+                    <button type="submit">Rejoindre</button>
+                </form>
+
+            </div>
+
+            <div class="reso">
+                <a href="https://www.facebook.com/" target="_blank">
+
+                    <img src="Image/fefacebook2.png" alt="facebook"></a>
+
+                <a href="https://twitter.com/" target="_blank">
+
+                    <img src="Image/Twitter.png" alt="twitter"></a>
+
+                <a href="https://www.tiktok.com/fr/" target="_blank">
+
+                    <img src="Image/Tik Tok.png" alt="tiktok"></a>
+
+                <a href="https://www.linkedin.com/feed//" target="_blank">
+
+                    <img src="Image/Linked In.png" alt="linkedin"></a>
+
+                <a href="https://www.youtube.com/" target="_blank">
+
+                    <img src="Image/Youtube.png" alt="youtube"></a>
+
+            </div>
+
+
         </nav>
-            </footer>
+    </footer>
 </body>
+
 </html>
