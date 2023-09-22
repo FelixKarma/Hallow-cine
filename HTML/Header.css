@@ -1,0 +1,90 @@
+.logo {
+    width: 150px;
+    height: 150px;
+}
+
+button  {
+    border-radius: 10px;
+    background-color:transparent ;
+    border:0px;
+  
+  
+
+
+  }  
+.panier, .fantome {
+    width: 50px;
+    height: 50px;
+    
+    
+}
+.panierfant{
+    border: 3px solid;
+    border-color: black;
+    border-radius: 20px;
+    height:60px;
+
+}
+  
+.entete{
+    display: flex;
+
+}
+h1{
+    font-family:'Metal Mania';
+    color: black;
+    font-size: 60px;
+
+}
+
+.navigation nav a button {
+    background-color:rgb(114, 26, 26) ;
+    border:0px ;
+    color: white;
+    border-right: 1px solid black;
+    border-radius: 0px;
+    margin-left:10px;
+    margin-right:10px;
+    font-family: 'Roboto';
+    padding-right:40px;
+
+    
+
+}
+input.recherche{
+    background-color:rgb(114, 26, 26) ;
+    display: flex;
+    font-family: 'Roboto';
+    border-radius: 30px;
+    color: white;
+    
+}
+
+.navigation{
+    background-color: rgb(114, 26, 26);
+    border-radius: 20px;
+    border:0px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto';
+    height:30px;
+    align-items: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+   
+    
+    
+
+   
+    
+}
+
+header {
+    color: antiquewhite;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+    
+}
