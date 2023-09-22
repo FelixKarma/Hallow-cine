@@ -1,0 +1,20 @@
+body {
+text-align: center;
+
+}
+
+img {
+height: 500px;
+width: 350px;
+}
+
+.charly {
+    -webkit-transition: all 0.7s ease;
+    transition:all 0.7s ease;
+}
+
+/*point d'arrivée*/
+.charly:hover {
+    -webkit-transform:rotate(360deg);
+    transform:rotate(360deg);
+}
