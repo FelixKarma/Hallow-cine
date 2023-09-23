@@ -22,7 +22,8 @@ color: rgb(218, 217, 217);
 
 .chemin {
   text-align: left;
-  margin-left: 20px;
+  margin-left: 85px;
+  margin-top: 5px;
 }
 
 .chemin a {
