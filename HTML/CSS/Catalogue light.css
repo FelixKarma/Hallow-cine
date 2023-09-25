@@ -34,7 +34,7 @@ select {
 figure {
   display: flex;
   flex-wrap: wrap;
-  margin: 43px;
+  margin: 50px;
   align-items: flex-end;
   
   
@@ -68,7 +68,7 @@ table {
   
   position :absolute;
   right: 0;
-  bottom: -413px;
+  bottom: -429px;
       max-height: 380px;
 }
 
