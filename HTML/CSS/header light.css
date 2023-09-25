@@ -2,29 +2,33 @@
     width: 150px;
     height: 150px;
     color:white;
+    
 }
 
-button  {
+header div a button  {
     border-radius: 10px;
     background-color:transparent ;
     border:0px;
   
-  
-
 
   }  
+
+
+
+
+
 .panier, .fantome {
     width: 50px;
     height: 50px;
-    
+   
     
 }
 .panierfant{
     border: 3px solid;
-    border-color: black;
+    border-color: rgb(255, 255, 255);
     border-radius: 20px;
     height:60px;
-
+    
 }
   
 .entete{

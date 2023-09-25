@@ -9,10 +9,10 @@ class Quiz {
 }
 
 const quizData = [
-    new Quiz("Question 1 : Quel film est considéré comme le premier film d'horreur ?", "Scream", "Le manoir du diable","L'exorciste","a"),
+    new Quiz("Question 1 : Quel film est considéré comme le premier film d'horreur ?", "Scream", "Le manoir du diable","L'exorciste","b"),
     new Quiz("Question 2 : Comment s'appelle le tueur masqué dans Scream ?", "Ghostface", "Fantômas ","Winnie l'ourson","a"),
-    new Quiz("Question 3 : Quel film codifie le sous genre avec des animaux ?", "Les Oiseaux", "Les dents de la mer","Le corbeau","b"),
-    new Quiz("Question 4 : Ou se déroule le Film The Shinning ?", "Dans une prison", "Dans une église avec soeur thérèse","Dans un Hotel","b"),
+    new Quiz("Question 3 : Quel film codifie le sous genre avec des animaux ?", "Les Oiseaux", "Les dents de la mer","Le corbeau","a"),
+    new Quiz("Question 4 : Ou se déroule le Film The Shinning ?", "Dans une prison", "Dans une église avec soeur thérèse","Dans un Hotel","c"),
     new Quiz("Question 5 : Pour quel film Kathy Bates a t'elle remporté l'oscar de la meilleur actrice ?", "Carrie", "Shinning","Misery","c"),
     new Quiz("Question 6 : Dans quel film ne voit on pas de zombies ?", "Le dernier train pour Busan", "28 jours plus tard","Get out","c"),
 ];

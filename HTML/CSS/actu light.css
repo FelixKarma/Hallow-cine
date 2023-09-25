@@ -1,0 +1,66 @@
+.chemin {
+text-align: left;
+margin-left: 20px;
+}
+
+main {
+color: antiquewhite;
+border-radius: 10px;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+
+}
+
+body {
+background-image: url(../Image/background\ actu.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+
+}
+
+a{
+outline: none;
+text-decoration: none;
+
+
+}
+
+a:link {
+color: antiquewhite;
+
+}
+
+a:visited {
+color: antiquewhite;
+
+}
+
+.div1 {
+    background-color: rgba(87, 52, 68, 0.808);
+    
+    width: 40%;
+    
+}
+
+.div2 {
+    background-color: rgba(87, 52, 68, 0.808);
+    
+   width: 40%;
+}
+
+
+
+.chemin {
+    font-size: smaller;
+    
+}
+
+.inscr {
+
+}
+
+.co {
+
+}
