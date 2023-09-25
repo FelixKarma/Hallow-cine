@@ -1,0 +1,28 @@
+header{
+    background-color: hover;
+
+    
+}
+body{
+    background-image: url(../Image/Acceuil.jpg);
+    background-size:100%;
+    overflow-x: hidden;
+}
+img.push{
+    height: 180px;
+    width: 180px;
+    position:absolute;
+    left: 72%;
+    top: 370px;
+}
+footer{
+    /* position: relative;
+    bottom:0px;
+    width: 100%; */
+}
+main{
+    height: 100vh;
+}
+.entete{
+    color:white;
+}
