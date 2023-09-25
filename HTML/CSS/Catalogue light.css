@@ -1,0 +1,77 @@
+body {
+  background-color: #F06DAC;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.trierpar {
+  display: flex;
+}
+
+.categories {
+  display: flex;
+}
+
+.type {
+  display: flex;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 43px;
+  margin-top: 10px;
+  justify-content: flex-start;
+  justify-content: space-around;
+  width: 35%;
+}
+
+select {
+  background-color: black;
+  color: white;
+}
+
+figure {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 43px;
+  align-items: flex-end;
+  
+}
+
+.affiche img {
+  margin: 20px;
+  margin-top: 30px;
+  max-height: 194px;
+}
+
+main {
+  min-height: 100vh;
+}
+
+
+table {
+  
+  justify-items: center;
+
+
+
+}
+.demon{
+
+  transform: rotate(270deg);
+  
+  position :absolute;
+  right: 0;
+  bottom: -214px;
+
+      max-height: 380px;
+}
+
+.navbaraccueil
+{display: flex ;
+justify-content: flex-start;
+margin-left: 80px;
+margin-top: 2px;
+
+}
