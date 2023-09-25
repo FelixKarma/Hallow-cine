@@ -16,12 +16,13 @@ body {
   .allpics {
     display: flex;
     flex-direction: row;
-    max-height: 250px;
-    max-width: 250px;
+    max-height: 180px;
+    max-width: 180px;
     border: 5px solid #6c0000;
     border-radius: 50%;
     margin: auto;
     width: 90%;
+    margin-top: 5% ;
   }
   
   .display {
@@ -45,7 +46,8 @@ body {
     background-color: rgba(128, 128, 128, 0);
     align-items: center;
     margin: 25px;
-    margin-top: 100px;
+    margin-top: 60px;
+    
   }
   
   .effets {
@@ -53,9 +55,9 @@ body {
     color: white;
     width: 18%;
     align-items: center;
-    margin: 25px;
+    margin: 15px;
     background-color: rgba(128, 128, 128, 0);
-    margin-top: 100px;
+    margin-top: 60px;
     padding: 100px left;
     padding-right: 25px;
   }
@@ -67,7 +69,7 @@ body {
     align-items: center;
     margin: 25px;
     background-color: rgba(128, 128, 128, 0);
-    margin-top: 100px;
+    margin-top: 60px;
   }
   
   .exorciste {
@@ -77,7 +79,7 @@ body {
     align-items: center;
     margin: 25px;
     background-color: rgba(128, 128, 128, 0);
-    margin-top: 100px;
+    margin-top: 60px;
   }
   
   .stephk {
@@ -87,7 +89,7 @@ body {
     align-items: center;
     margin: 25px;
     background-color: rgba(128, 128, 128, 0);
-    margin-top: 100px;
+    margin-top: 60px;
   }
   
   .titre {
@@ -95,5 +97,12 @@ body {
   }
   h2 {
     font-family: "Kranky", cursive;
-  }
+    margin-top: 0;
+    text-align:justify;
+    height: 50px
+      }
   
+      p {
+        text-align: left;
+        text-align: ;
+      }
