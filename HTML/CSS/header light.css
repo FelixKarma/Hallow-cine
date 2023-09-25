@@ -39,7 +39,7 @@ text-decoration: none;
 }
 
 .navigation nav a button {
-    background-color:rgb(114, 26, 26) ;
+    background-color:rgb(151, 0, 136) ;
     border:0px ;
     color: white;
     border-right: 1px solid black;
@@ -53,7 +53,7 @@ text-decoration: none;
 
 }
 input.recherche{
-    background-color:rgb(114, 26, 26) ;
+    background-color:rgb(151, 0, 136) ;
     display: flex;
     font-family: 'Roboto';
     border-radius: 50px;
@@ -69,7 +69,7 @@ input.recherche{
 }
 
 .navigation{
-    background-color: rgb(114, 26, 26);
+    background-color: rgb(151, 0, 136);
     border-radius: 20px;
     border:0px;
     display: flex;

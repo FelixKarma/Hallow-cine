@@ -1,0 +1,19 @@
+body {
+background-color: rgb(240, 109, 172);
+
+}
+
+main {
+color: white;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-left: 10px;
+align-items: center;
+
+}
+
+[type*="text"], [type*="email"], [type*="password"]{
+width: 216px;
+
+}
