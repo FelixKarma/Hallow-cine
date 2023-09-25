@@ -27,7 +27,7 @@ body {
 }
 
 select {
-  background-color: black;
+  background-color: #F06DAC;
   color: white;
 }
 
@@ -37,12 +37,17 @@ figure {
   margin: 43px;
   align-items: flex-end;
   
+  
 }
 
 .affiche img {
   margin: 20px;
   margin-top: 30px;
-  max-height: 194px;
+  max-height: 200px;
+  min-height: 200px;
+  min-width: 146px
+ ;
+  
 }
 
 main {
@@ -63,8 +68,7 @@ table {
   
   position :absolute;
   right: 0;
-  bottom: -214px;
-
+  bottom: -413px;
       max-height: 380px;
 }
 
