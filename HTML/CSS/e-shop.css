@@ -1,4 +1,10 @@
 body{
-    background-image: url("Image/Acceuil.jpg");
+    background-image: url("../Image/Frame\ 5.png");
     background-size:100%;
     overflow-x: hidden;
+    background-repeat: no-repeat;
+    }
+
+main{
+    height: 64.9vh;
+}
