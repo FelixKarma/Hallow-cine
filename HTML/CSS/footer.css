@@ -7,8 +7,9 @@ body {
 
 footer {
 background-color: rgb(204, 202, 202);
-padding: 5px;
 display: block;
+font-size: smaller;
+
 }
 
 nav {
@@ -18,20 +19,15 @@ justify-content: space-around;
 }
 
 
-.logo {
-height: 100px;
-width: 100px;
-
-}
 
 div {
 text-align: center;
-
+line-height: 1em;
 
 }
 
 .reso a img {
-width: 45px;
+width: 30px;
 
 
 }
@@ -47,4 +43,8 @@ gap: 10px;
 button {
 border-radius: 10px;
     
+}
+#adresse, #Contact {
+margin-bottom: 0;
+
 }
