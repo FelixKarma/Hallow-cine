@@ -7,13 +7,14 @@ body{
     background-image: url(../Image/Acceuil.jpg);
     background-size:100%;
     overflow-x: hidden;
+    background-position: 0% -180px;
 }
 img.push{
     height: 180px;
     width: 180px;
     position:absolute;
-    left: 72%;
-    top: 370px;
+    left: 75%;
+    top: 240px;
 }
 footer{
     /* position: relative;
