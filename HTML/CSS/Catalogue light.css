@@ -79,3 +79,14 @@ margin-left: 80px;
 margin-top: 2px;
 
 }
+
+.navbaraccueil a {
+  color:white;
+  text-decoration: none;
+  font-size: smaller;
+}
+
+.navbaraccueil {
+  text-align: left;
+  
+}
