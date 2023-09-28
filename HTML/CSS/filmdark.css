@@ -72,4 +72,17 @@ body {
   color: azure;}
   
   
-  
+  .liencatalogue a {
+    text-align: left;
+    color: white;
+    font-size: smaller;
+    text-decoration: none;
+    
+  }
+  .liencatalogue {
+    
+  margin-left: 80px;
+  margin-top: 5px;
+  text-align: left;
+  margin-bottom: 5px;
+  }

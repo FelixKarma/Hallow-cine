@@ -62,3 +62,17 @@ width: 100px;
 height: 100px;
 align-self: self-end;
 }
+
+.liencatalogue a {
+    text-align: left;
+    color: white;
+    font-size: smaller;
+    text-decoration: none;
+    
+  }
+  .liencatalogue {
+    
+    margin-left: 80px;
+    margin-top: 5px;
+    text-align: left;
+}

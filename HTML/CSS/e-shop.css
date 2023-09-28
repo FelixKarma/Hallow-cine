@@ -91,3 +91,16 @@ width: 100%;
     left: 1117px;
     opacity:0;
 }
+
+.liencatalogue a {
+    text-align: left;
+    color: white;
+    font-size: smaller;
+    text-decoration: none;
+    
+  }
+  .liencatalogue {
+    margin-left: 80px;
+    margin-top: 5px;
+    text-align: left;
+}

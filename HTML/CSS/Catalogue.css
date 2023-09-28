@@ -35,8 +35,7 @@ figure {
   flex-wrap: wrap;
   margin: 70px;
   align-items: flex-end;
-  
-}
+  }
 
 .affiche img {
   margin: 20px;
@@ -52,9 +51,19 @@ main {
 
 
 table {
+    justify-items: center;
+}
+
+.liencatalogue a {
+  text-align: left;
+  color: white;
+  font-size: smaller;
+  text-decoration: none;
   
-  justify-items: center;
-
-
-
+}
+.liencatalogue {
+  
+  margin-left: 80px;
+  margin-top: 5px;
+  text-align: left;
 }
