@@ -45,7 +45,7 @@ ul li label {
 }
 
 main button {
-    background-color: #03cae4;
+    background-color: rgb(151, 0, 136);
     color: #fff;
     border: none;
     display: block;
@@ -60,7 +60,7 @@ main button {
 }
 
 main button:hover {
-    background-color: #04adc4;
+    background-color:rgb(151, 0, 136);
 }
 
 main button:focus {
