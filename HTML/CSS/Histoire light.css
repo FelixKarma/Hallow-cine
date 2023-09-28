@@ -3,6 +3,7 @@ body {
     background-image: url(../Image/Fondrosee.jpg);
     background-size:100%;
     overflow-x: hidden;
+    
   }
   
   header {
@@ -82,7 +83,7 @@ body {
   
   .stephk {
     flex-grow: 1;
-    color: white;
+    color: rgb(255, 255, 255);
     width: 18%;
     align-items: center;
     margin: 25px;
