@@ -127,3 +127,17 @@ body {
     padding:8px;
     opacity:80%;
   }
+
+  .chemin a {
+    text-align: left;
+    color: white;
+    font-size: smaller;
+    text-decoration: none;
+    
+  }
+  .chemin {
+    
+    margin-left: 80px;
+    margin-top: 5px;
+    text-align: left;
+  }

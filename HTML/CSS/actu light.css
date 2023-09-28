@@ -1,7 +1,4 @@
-.chemin {
-text-align: left;
-margin-left: 20px;
-}
+
 
 main {
 color: antiquewhite;
@@ -52,9 +49,17 @@ color: antiquewhite;
 
 
 
+.chemin a{
+    text-decoration: none;
+    color: white;
+
+}
+
 .chemin {
+    margin-left: 80px;
+    margin-top: 5px;
+    text-align: left;
     font-size: smaller;
-    
 }
 
 .inscr {

@@ -1,7 +1,4 @@
-.chemin {
-text-align: left;
-margin-left: 20px;
-}
+
 
 main {
 color: antiquewhite;
@@ -63,14 +60,14 @@ height: 100px;
 align-self: self-end;
 }
 
-.liencatalogue a {
+.chemin a {
     text-align: left;
     color: white;
     font-size: smaller;
     text-decoration: none;
     
   }
-  .liencatalogue {
+  .chemin {
     
     margin-left: 80px;
     margin-top: 5px;

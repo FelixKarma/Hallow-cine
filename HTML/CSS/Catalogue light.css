@@ -72,21 +72,16 @@ table {
   max-height: 380px;
 }
 
-.navbaraccueil
-{display: flex ;
-justify-content: flex-start;
-margin-left: 80px;
-margin-top: 2px;
-
-}
-
-.navbaraccueil a {
-  color:white;
-  text-decoration: none;
-  font-size: smaller;
-}
-
-.navbaraccueil {
+.liencatalogue a {
   text-align: left;
+  color: white;
+  font-size: smaller;
+  text-decoration: none;
   
+}
+.liencatalogue {
+  
+  margin-left: 80px;
+  margin-top: 5px;
+  text-align: left;
 }
