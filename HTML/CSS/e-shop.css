@@ -6,5 +6,88 @@ body{
     }
 
 main{
-    height: 64.9vh;
+    height: 90vh;
+}
+footer{
+position:relative;
+bottom:0px;
+width: 100%;
+}
+.cadi1 {
+    position: absolute;
+    top: 335px;
+    left: 320px;
+    opacity:0;
+}
+.cadi2 {
+    position: absolute;
+    top: 451px;
+    left: 257px;
+    opacity:0;
+}
+.cadi3 {
+    position: absolute;
+    top: 647px;
+    left: 229px;
+    opacity:0;
+}
+.cadi4 {
+    position: absolute;
+    top: 341px;
+    left: 618px;
+    opacity:0;
+}
+.cadi5 {
+    position: absolute;
+    top: 647px;
+    left: 347px;
+    opacity:0;
+}
+.cadi6 {
+    position: absolute;
+    top: 441px;
+    left: 715px;
+    opacity:0;
+}
+.cadi7 {
+    position: absolute;
+    top: 640px;
+    left: 608px;
+    opacity:0;
+}
+.cadi8 {
+    position: absolute;
+    top: 641px;
+    left: 702px;
+    opacity:0;
+}
+.cadi9 {
+    position: absolute;
+    top: 335px;
+    left: 992px;
+    opacity:0;
+}
+.cadi10 {
+    position: absolute;
+    top: 335px;
+    left: 991px;
+    opacity:0;
+}
+.cadi11 {
+    position: absolute;
+    top: 441px;
+    left: 1087px;
+    opacity:0;
+}
+.cadi12 {
+    position: absolute;
+    top: 640px;
+    left: 973px;
+    opacity:0;
+}
+.cadi13 {
+    position: absolute;
+    top: 634px;
+    left: 1117px;
+    opacity:0;
 }
