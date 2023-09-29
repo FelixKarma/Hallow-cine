@@ -87,3 +87,19 @@ body {
   text-align: left;
   margin-bottom: 5px;
   }
+
+  .etoiles {
+    display: flex;
+    margin-left: 200px;
+    margin-top: ;
+    margin-bottom: ;
+  }
+
+  .petitesetoiles{
+
+    max-width: 25px ;
+    max height: 24px ;
+    
+
+    
+}
