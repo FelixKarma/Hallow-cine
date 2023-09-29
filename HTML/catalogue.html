@@ -54,93 +54,36 @@
       </div>
 
       <div class="container">
-        <select name="Trieur" id="Trieur">
+        <select name="Trieur" id="Trieur" onChange="this.options[this.selectedIndex].onclick()">
           <option value="trier par" disabled selected>Trier par</option>
-          <option value="Le plus récent">Le plus récent</option>
-          <option value="Le plus ancien">Le plus ancien</option>
-          <option value="Note croissante">Note croissante</option>
+          <option value="Le plus récent" onclick="triage(1)">Le plus récent</option>
+          <option value="Le plus ancien" onclick="triage(2)">Le plus ancien</option>
+          <option value="Note croissante" onclick="triage(3)">Note croissante</option>
         </select>
 
-        <select name="Catégories" id="Catégories">
+        <select name="Catégories" id="Catégories" onChange="this.options[this.selectedIndex].onclick()">
           <option value="Catégories" disabled selected>Catégories</option>
-          <option value="Fantastique">Fantastique</option>
-          <option value="horreur">Horreur</option>
-          <option value="Science-Fiction">Science Fiction</option>
-          <option value="Thriller">Thriller</option>
-          <option value="Drame">Drame</option>
+          <option value="Fantastique" onclick="cate(1)">Fantastique</option>
+          <option value="horreur" onclick="cate(2)">Horreur</option>
+          <option value="Science-Fiction" onclick="cate(3)">Science Fiction</option>
+          <option value="Thriller" onclick="cate(4)">Thriller</option>
+          <option value="Drame" onclick="cate(5)">Drame</option>
         </select>
 
-        <select name="Type" id="Type">
+        <select name="type" id="type"onChange="this.options[this.selectedIndex].onclick()">
           <option value="Type" disabled selected>Type</option>
-          <option value="Film">Film</option>
-          <option value="Série">Série</option>
-          <option value="Podcast">Podcast</option>
+          <option value="Film" onclick="type(1)">Film</option>
+          <option value="Série" onclick="type(2)">Série</option>
         </select>
       </div>
 
       <div>
         <figure class="affiche">
-          <img src="./Image/penny.png" alt="Affiche Penny Dreadfull" />
 
-          <img src="./Image/heredite.png" alt="Affiche Hérédité" />
-
-          <img
-            src="./Image/Haunting of Hill House.png"
-            alt="Haunting of Hill House"
-          />
-
-          <img
-            src="./Image/Affiche Scream.png"
-            alt="Affiche Scream"
-            height="290"
-          />
-
-          <img src="./Image/SAW.png" alt="Affiche SAW.png" />
-
-          <img
-            src="./Image/Affiche Supernatural.png"
-            alt="Affiche Supernatural"
-          />
-
-          <img src="./Image/ca.png" alt="Affiche çà " />
-
-          <img
-            src="./Image/strangerthing.png"
-            alt="Affiche Stranger Things"
-            height="290"
-          />
-
-          <img src="./Image/izombie.png" alt="izombie." height="280" />
-
-          <img
-            src="./Image/Affiche Scream Queens.png"
-            alt="Affiche Scream Queens"
-          />
-
-          <img
-            src="./Image/L'exorciste.webp"
-            alt="exorciste"
-          />
-
-          <img src="./Image/AHS.png" alt="Affiche American Horror Story" />
-
-          <img src="./Image/shining.jpg" alt="Shining">
-
-        <img src="./Image/witch.jpg" alt="the witch">
-
-        <img src="./Image/Les oiseaux.jpg" alt="les oiseaux">
-
-        <img src="./Image/massacre.jpg" alt="massacre à la tronconneuse">
-
-        <img src=".//Image/rec.jpg" alt="rec">
-
-        <img src="./Image/ash.jpg" alt="evil dead">
-
-        <img src="./Image/walking dead.webp" alt="the walking dead">
-
-        <img src="./Image/buffy.jpg" alt="buffy">
         </figure>
+        
       </div>
+
     </main>
     <!-- footer -->
     <footer>
