@@ -7,7 +7,7 @@ body {
     min-height: 100vh;
   }
   
-  .img {
+  .image {
     height: 350px;
     width: 250px;
     display: flex;
@@ -16,7 +16,7 @@ body {
     
   }
   
-  .paragraphe {
+  p {
     color: rgb(244, 244, 247);
     text-align: left;
 
@@ -37,7 +37,7 @@ body {
   
   }
     
-    .title  {
+    .titre  {
       text-align: center; 
       font-size: 30px; color: white;
       margin-top: 1%;
@@ -48,12 +48,12 @@ body {
   }
   
   .bg_synopsis
-  {background-color: rgba(0, 0, 0, 0.3);
+  {background-color: rgba(0, 0, 0, 0.704);
   margin-left: 30px;
   
   }
   
-  .button
+  .ba
   {display: block;
   text-align: center;
   border: solid 2px;
