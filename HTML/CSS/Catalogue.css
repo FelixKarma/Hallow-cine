@@ -15,6 +15,9 @@ body {
   display: flex;
 }
 
+
+
+
 .container {
   display: flex;
   flex-direction: row;
@@ -23,6 +26,7 @@ body {
   justify-content: flex-start;
   justify-content: space-around;
   width: 35%;
+
 }
 
 select {
