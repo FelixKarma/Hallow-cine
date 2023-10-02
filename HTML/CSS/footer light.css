@@ -1,50 +1,119 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
-
+    height:  133px;
+    max-width: 1519.2px;
 }
 
 
 footer {
-background-color: rgb(151, 0, 136);
-padding: 5px;
-display: block;
-color: white;
-font-size: smaller;
-
+    background-color: #970088;
+    display: block;
+    font-size: smaller;
+    
 }
 
-nav {
+.logofooter {
 display: flex;
-flex-direction: row;
-justify-content: space-around;
-}
+    height: 100px;
+    width: 130px;
+    margin-top: 7px;
+    
+   
+    
+    
 
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 
 
 
 div {
-text-align: center;
-line-height: 1em;
+    text-align: center;
+    line-height: 1em;
 
 }
 
 .reso a img {
-width: 30px;
+    width: 30px;
 
 
 }
 
 .reso {
-display: flex;
-justify-content: left;
-align-items: center;
-gap: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 15px;
+    
 
 }
 
 button {
-border-radius: 10px;
+    border-radius: 10px;
+    flex-grow: 1;
+
+}
+
+#adresse,
+#Contact {
+    margin-bottom: 0;
+}
+
+.emailbutton {
+    border-radius: 20px;
+    height: 25px;
+    width: 380px;
+    margin-top: 45px;
+    text-align: center;
+    
+   
+
+}
+
+.buttonrejoindre {
+    border-radius: 20px;
+    height: 28px;
+    width: 100px;
+    background-color: rgb(247, 245, 245);
+    margin-top: 12px;
+    margin-left: 150px;
+    color: rgb(0, 0, 0);
+    font-size: smaller;
+
     
 }
 
+.contact {
+    min-width: 200px;
+    margin-top: 10px;
+    text-align: left;
+    color: white;
+    
+
+}
+
+.adress {
+    min-width: 200px;
+    margin-top: 10px;
+    text-align: left;
+    color: white;
+   
+}
+
+.newsletter {
+    margin-top: 20px;
+    margin-right: 35px ;
+    margin-left: 20px;
+    color: white;
+    
+    
+
+}
