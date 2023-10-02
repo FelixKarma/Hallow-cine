@@ -68,10 +68,12 @@ table {
 
   transform: rotate(270deg);
   
-  position :absolute;
+  position :fixed;
   right: 0;
-  bottom: -429px;
+  /* bottom: -429px; */
+  bottom: 99px;
   max-height: 380px;
+  z-index: -1;
 }
 
 .liencatalogue a {
