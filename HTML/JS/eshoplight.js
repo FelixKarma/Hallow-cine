@@ -15,5 +15,11 @@ function supp(num){
     nombre[num-1].innerText = nbr -1;
 }
 }
-const produits = document.getElementsByClassName ("btn-primary");
+const produits = document.getElementsByClassName("btnAjoutPanier");
 
+function ajoutPanier(num) {
+    let nbr = parseInt(nombre[num-1].innerText);
+    if (nbr != 0) {
+        localStorage.setItem("produit"+(num),nbr);
+    }
+}

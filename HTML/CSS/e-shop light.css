@@ -100,3 +100,8 @@ header a {
 h4{
     font-size: inherit !important;
 }
+
+.btnAjoutPanier{
+    background-color: rgb(151, 0, 136) !important;
+    color: white !important;
+}

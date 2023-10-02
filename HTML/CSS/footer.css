@@ -10,6 +10,7 @@ footer {
     background-color: rgb(204, 202, 202);
     display: block;
     font-size: smaller;
+    overflow-x: hidden;
     
 }
 
@@ -91,7 +92,7 @@ button {
 }
 
 .contact {
-    min-width: 200px;
+    max-width: 20%;
     margin-top: 10px;
     text-align: left;
     
@@ -99,7 +100,7 @@ button {
 }
 
 .adress {
-    min-width: 200px;
+    max-width: 20%;
     margin-top: 10px;
     text-align: left;
    
