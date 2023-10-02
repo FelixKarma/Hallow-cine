@@ -109,3 +109,7 @@ width: 100%;
     font-size: 20px !important;
 
 }
+
+h4{
+    font-size: inherit !important;
+}
