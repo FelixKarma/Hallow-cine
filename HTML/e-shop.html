@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="Header.css">
     <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&family=Roboto&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/b08defdd42.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
 <body>
@@ -50,22 +52,306 @@
      </div>
 <!-- Fin Header -->
     <main>
-      <a   class="cadi1"   href="panier.html"><img src="image/cadi.png" alt="cadi"></a>
+        <button class="cadi1" data-bs-toggle="modal" data-bs-target="#cadi1"><img src="image/cadi.png" alt="cadi"></button>
 
-      <a   class="cadi2"   href="panier.html"><img src="image/cadi.png" alt="cadi"></a>
-      <a   class="cadi3"   href="panier.html"><img src="image/cadi.png" alt="cadi"></a>
-      <a   class="cadi4"   href="panier.html"><img src="image/cadi.png" alt="cadi"></a>
-      <a   class="cadi5"   href="panier.html"><img src="image/cadi.png" alt="cadi"></a>
-      <a   class="cadi6"   href="panier.html"><img src="image/cadi.png" alt="cadi"></a>
-      <a   class="cadi7"   href="panier.html"><img src="image/cadi.png" alt="cadi"></a>
-      <a   class="cadi8"   href="panier.html"><img src="image/cadi.png" alt="cadi"></a>
-      <a   class="cadi9"   href="panier.html"><img src="image/cadi.png" alt="cadi"></a>
-     <a   class="cadi10"   href="panier.html"><img src="image/cadi.png" alt="cadi"></a>
-     <a   class="cadi11"   href="panier.html"><img src="image/cadi.png" alt="cadi"></a>
-     <a   class="cadi12"   href="panier.html"><img src="image/cadi.png" alt="cadi"></a>
-     <a   class="cadi13"   href="panier.html"><img src="image/cadi.png" alt="cadi"></a>
-    
-     
+        <div class="modal fade" id="cadi1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Crâne de Félin 6780€</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="image/Chat.png" alt="" class="d-block mx-auto" height="200px">
+                        <button class="btn moins"onclick = "supp(1)">-</button>
+
+                        <p class="d-inline nombre">0</p>
+
+                        <button class="btn plus" onclick="ajout(1)">+</button>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Supprimez</button>
+                        <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button class="cadi2" data-bs-toggle="modal" data-bs-target="#cadi2"><img src="image/cadi.png" alt="cadi"></button>
+
+        <div class="modal fade" id="cadi2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Migalle Goliath 3922€</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="image/Spider.png" alt="" class="d-block mx-auto" height="200px">
+                      <button class="btn moins"onclick = "supp(2)">-</button>
+
+                      <p class="d-inline nombre">0</p>
+
+                      <button class="btn plus" onclick="ajout(2)">+</button>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Supprimez</button>
+                        <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button class="cadi3" data-bs-toggle="modal" data-bs-target="#cadi3"><img src="image/cadi.png" alt="cadi"></button>
+
+        <div class="modal fade" id="cadi3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Papillonus Blackus 2739€</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="image/papilion.jpg" alt="" class="d-block mx-auto" height="200px">
+                      <button class="btn moins"onclick = "supp(3)">-</button>
+
+                      <p class="d-inline nombre">0</p>
+
+                      <button class="btn plus" onclick="ajout(3)">+</button>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Supprimez</button>
+                        <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button class="cadi5" data-bs-toggle="modal" data-bs-target="#cadi5"><img src="image/cadi.png" alt="cadi"></button>
+
+        <div class="modal fade" id="cadi5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Sceptre Barbare 5471€</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="image/sceptre.jpg" alt="" class="d-block mx-auto" height="200px">
+                      <button class="btn moins"onclick = "supp(5)">-</button>
+
+                        <p class="d-inline nombre">0</p>
+
+                        <button class="btn plus" onclick="ajout(5)">+</button>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Supprimez</button>
+                        <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button class="cadi4" data-bs-toggle="modal" data-bs-target="#cadi4"><img src="image/cadi.png" alt="cadi"></button>
+
+        <div class="modal fade" id="cadi4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Lapinou 7654€</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="image/lapinou.jpg" alt="" class="d-block mx-auto" height="200px">
+                      <button class="btn moins"onclick = "supp(4)">-</button>
+
+                      <p class="d-inline nombre">0</p>
+
+                      <button class="btn plus" onclick="ajout(4)">+</button>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Supprimez</button>
+                        <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button class="cadi6" data-bs-toggle="modal" data-bs-target="#cadi6"><img src="image/cadi.png" alt="cadi"></button>
+
+        <div class="modal fade" id="cadi6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Crane de Jacqouilles 9789€</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="image/Crane.png" alt="" class="d-block mx-auto" height="200px">
+                      <button class="btn moins"onclick = "supp(6)">-</button>
+
+                        <p class="d-inline nombre">0</p>
+
+                        <button class="btn plus" onclick="ajout(6)">+</button>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Supprimez</button>
+                        <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button class="cadi7" data-bs-toggle="modal" data-bs-target="#cadi7"><img src="image/cadi.png" alt="cadi"></button>
+
+        <div class="modal fade" id="cadi7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Squelette de "DODO" 450€</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="image/piaf.png" alt="" class="d-block mx-auto" height="200px">
+                      <button class="btn moins"onclick = "supp(7)">-</button>
+
+                      <p class="d-inline nombre">0</p>
+
+                      <button class="btn plus" onclick="ajout(7)">+</button>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Supprimez</button>
+                        <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button class="cadi8" data-bs-toggle="modal" data-bs-target="#cadi8"><img src="image/cadi.png" alt="cadi"></button>
+
+        <div class="modal fade" id="cadi8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Scorpion 743€</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="image/Scorpion.png" alt="" class="d-block mx-auto" height="200px">
+                      <button class="btn moins"onclick = "supp(8)">-</button>
+
+                        <p class="d-inline nombre">0</p>
+
+                        <button class="btn plus" onclick="ajout(8)">+</button>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Supprimez</button>
+                        <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button class="cadi9 " data-bs-toggle="modal" data-bs-target="#cadi9"><img src="image/cadi.png" alt="cadi"></button>
+
+        <div class="modal fade" id="cadi9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Abeille Royale 2876€</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="image/abeille.png" alt="" class="d-block mx-auto" height="200px">
+                      <button class="btn moins"onclick = "supp(9)">-</button>
+
+                      <p class="d-inline nombre">0</p>
+
+                      <button class="btn plus" onclick="ajout(9)">+</button>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Supprimez</button>
+                        <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button class="cadi10" data-bs-toggle="modal" data-bs-target="#cadi10"><img src="image/cadi.png" alt="cadi"></button>
+
+        <div class="modal fade" id="cadi10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Champignon 2154€</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="image/champi.jpg" alt="" class="d-block mx-auto" height="200px">
+                      <button class="btn moins"onclick = "supp(10)">-</button>
+
+                      <p class="d-inline nombre">0</p>
+
+                      <button class="btn plus" onclick="ajout(10)">+</button>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Supprimez</button>
+                        <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button class="cadi11" data-bs-toggle="modal" data-bs-target="#cadi11"><img src="image/cadi.png" alt="cadi"></button>
+
+        <div class="modal fade" id="cadi11" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Général Ecureuil 4569€</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="image/Scootcureuil.png" alt="" class="d-block mx-auto" height="200px">
+                      <button class="btn moins"onclick = "supp(11)">-</button>
+
+                      <p class="d-inline nombre">0</p>
+
+                      <button class="btn plus" onclick="ajout(11)">+</button>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Supprimez</button>
+                        <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button class="cadi12" data-bs-toggle="modal" data-bs-target="#cadi12"><img src="image/cadi.png" alt="cadi"></button>
+
+        <div class="modal fade" id="cadi12" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Taxidermie Legolas 165€</h1>
+                        
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="image/Elf.png" alt="" class="d-block mx-auto" height="200px">
+                      <button class="btn moins"onclick = "supp(12)">-</button>
+
+                      <p class="d-inline nombre">0</p>
+
+                      <button class="btn plus" onclick="ajout(12)">+</button>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Supprimez</button>
+                        <button type="button" class="btn btn-primary">Ajouter au panier</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     
     </main>
     <!-- debut footer -->
@@ -125,9 +411,12 @@
         
         
         
-        </nav
-        >
+        </nav>
             </footer>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+            <script src="JS/eshoplight.js"></script>
     
 </body>
 </html>
