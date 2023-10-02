@@ -96,3 +96,7 @@ width: 100%;
 header a {
     color: rgb(151, 0, 136);
 }
+
+h4{
+    font-size: inherit !important;
+}
