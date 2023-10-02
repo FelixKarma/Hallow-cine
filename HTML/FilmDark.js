@@ -16,7 +16,7 @@ class Film {
 const films = [
     new Film("iZombie", 4, " Rose McIver, Malcolm Goodwin, Rahul Kholi, Robert Buckley, David Anders , Alyson Michalka", "Rob Thomas et Diane Ruggiero-Wrigh", "Olivia Moore, surnommée Liv, une étudiante transformée en zombie lors d'une soirée qui a très mal tourné, travaille en tant que médecin légiste afin de pouvoir profiter du festin que représentent pour elle les cervelles des défunts. A chaque bouchée, elle hérite des souvenirs de la personne. Cherchant désespérément un sens à sa vie, elle se rend compte qu'avec l'aide du détective Clive Babinaux, elle peut résoudre les affaires de meurtres et calmer ainsi les voix qui la tourmentent dans sa tête..", "Image/izombie.png", "https://www.youtube.com/watch?si=LlufEbVlPRhmjM2P&v=GEgKR6pvVlU&feature=youtu.be&ab_channel=WarnerTVFrance", "Thriller", "Série", 2015),
 
-    new Film("Buffy contre les vampire", 4, "Sarah Michelle Gellar, Alyson Hannigan, Nicholas Brendon", "Joss Whedon", "Buffy Summers aspire à une vie simple et épanouie auprès de sa famille et de ses amis. Mais les démons qui rôdent à Sunnydale lui rappellent sans cesse qu'elle doit faire face à ses responsabilités de Tueuse.", "Image/buffy.jpg", "https://www.youtube.com/watch?v=4UjXrHF0q2M", "Fantastique", "Série", 1997),
+    new Film("Buffy contre les vampires", 4, "Sarah Michelle Gellar, Alyson Hannigan, Nicholas Brendon", "Joss Whedon", "Buffy Summers aspire à une vie simple et épanouie auprès de sa famille et de ses amis. Mais les démons qui rôdent à Sunnydale lui rappellent sans cesse qu'elle doit faire face à ses responsabilités de Tueuse.", "Image/buffy.jpg", "https://www.youtube.com/watch?v=4UjXrHF0q2M", "Fantastique", "Série", 1997),
 
     new Film("Supernatural", 4, "Jared Padalecki, Jensen Ackles, Misha Collins, Alexander Calvert", "Eric Kripke", "Deux frères, Sam et Dean Winchester sont chasseurs de créatures surnaturelles. Ils sillonnent les États-Unis à bord d'une Chevrolet Impala noire de 1967 pour enquêter sur des phénomènes paranormaux (souvent issus du folklore, des superstitions, mythes et légendes urbaines américaines, mais aussi des monstres surnaturels tels que les fantômes, loups-garous, démons, vampires…). Ils espèrent par la même occasion mettre la main sur le démon responsable de la mort de leur mère, 22 ans plus tôt, qu'ils appellent 'le démon aux yeux jaunes'", "Image/Affiche Supernatural.png", "https://youtu.be/NjkjXEzGatM?si=GZ5GHMlrEy1w6xgg", "Fantastique", "Série", 2005),
 
@@ -49,25 +49,29 @@ const films = [
     new Film("The Witch", 3, "Anya Taylor-Joy, Ralph Ineson, Kate Dickie", "Robert Eggers", "1630, en Nouvelle-Angleterre. William et Katherine, un couple dévot, s’établit à la limite de la civilisation, menant une vie pieuse avec leurs cinq enfants et cultivant leur lopin de terre au milieu d’une étendue encore sauvage. La mystérieuse disparition de leur nouveau-né et la perte soudaine de leurs récoltes vont rapidement les amener à se dresser les uns contre les autres…", "Image/witch.jpg", "https://youtu.be/MXLPTcCNwWY?si=pBi6mrGuudtl_lSy", "Horreur", "Film", 2016),
 
     new Film("The Shining", 4, "Jack Nicholson, Jean-Louis Trintignant, Shelley Duvall", "Stanley Kubrick, Diane Johnson", "Écrivain, Jack Torrance est engagé comme gardien, pendant tout l’hiver, d’un grand hôtel isolé du Colorado – l’Overlook – où il espère surmonter enfin sa panne d’inspiration. Il s’y installe avec sa femme Wendy et son fils Danny, doté d’un don de médium. Tandis que Jack n’avance pas dans son livre et que son fils est de plus en plus hanté par des visions terrifiantes, il découvre les terribles secrets de l’hôtel et bascule peu à peu dans une forme de folie meurtrière où il s’en prend à sa propre famille", "Image/shining.jpg", "https://youtu.be/7gQNjXJPlzc?si=vpateyM9ynFUABgV", "Thriller", "Film", 1980),
-    
+
     new Film("Hérédité", 3, "Toni Collette, Gabriel Byrne, Alex Wolff", "Ari Aster", "Lorsque Ellen, matriarche de la famille Graham, décède, sa famille découvre des secrets de plus en plus terrifiants sur sa lignée. Une hérédité sinistre à laquelle il semble impossible d’échapper.", "Image/heredite.png", "https://youtu.be/vntI9lAQyyw?si=jVzSpBP7IJdtCYZa", "Drame", "Film", 2018),
-    
+
     new Film("L'Exorciste", 4, "Linda Blair, Ellen Burstyn, Max von Sydow", "William Peter Blatty", "L'actrice Chris McNeil est inquiète au sujet de sa fillette Regan : après que l'on ait entendu des bruits curieux venant de sa chambre, la petite a changé, proférant de constantes insanités. Une force para-normale l'habite, qui coûte la vie au metteur en scène de Chris. Désespérée, cette dernière fait appel à deux exorcistes...", "Image/exorcist.jpg", "https://youtu.be/kuowPVqvnRk?si=BZCmDuwQ-gAv4lQ4", "Horreur", "Film", 1974)
-    
+
 ]
 let affiche = document.getElementsByClassName("affiche");
 let categ;
 let typeg;
 
+affichage();
 
-if (document.location.href.includes("catalogue")) {
-    
-    let images = "";
+function affichage() {
 
-    for (const film of films) {
-        images += `<a href="FilmDark.html#${film.titre}"><img src="${film.image}" alt="${film.titre}" /></a>`;
+    if (document.location.href.includes("catalogue")) {
+
+        let images = "";
+
+        for (const film of films) {
+            images += `<a href="FilmDark.html#${film.titre}"><img src="${film.image}" alt="${film.titre}" /></a>`;
+        }
+        affiche[0].innerHTML = images;
     }
-    affiche[0].innerHTML = images;
 }
 
 function triage(tri) {
@@ -127,7 +131,7 @@ function cate(tri) {
 }
 
 function type(tri) {
-    
+
     switch (tri) {
         case 1:
             typeg = "Film";
@@ -148,3 +152,74 @@ function type(tri) {
     }
     affiche[0].innerHTML = images;
 }
+
+
+
+// -----------------------------------
+
+affichageFilmEtSerie()
+function affichageFilmEtSerie() {
+
+    if (document.location.href.includes("Film")) {
+        const image = document.getElementsByClassName("image");
+        const ba = document.getElementsByClassName("ba");
+        const titre = document.getElementsByClassName("titre");
+        const type = document.getElementsByClassName("type");
+        const categorie = document.getElementsByClassName("categorie");
+        const acteurp = document.getElementsByClassName("acteurp");
+        const rea = document.getElementsByClassName("rea");
+        const synopsis = document.getElementsByClassName("synopsis");
+        const note = document.getElementsByClassName("note");
+        const etoiles = document.getElementsByClassName("etoiles");
+
+        for (const film of films) {
+            let changeTitle = film.titre.replaceAll(' ', '%20')
+            if (document.location.href.includes(changeTitle)) {
+                image[0].src = film.image;
+                ba[0].href = film.ba;
+                titre[0].innerText = film.titre;
+                type[0].innerText = film.type;
+                categorie[0].innerText = film.categorie;
+                acteurp[0].innerText = film.acteurp;
+                rea[0].innerText = film.rea;
+                synopsis[0].innerText = film.synopsis;
+                note[0].innerText = film.note;
+                switch (film.note) {
+                    case 5:
+                        etoiles[0].innerHTML = `
+                        <img src="Image/etoilejaune.png" alt=""class="petitesetoiles">
+                        <img src="Image/etoilejaune.png" alt="" class="petitesetoiles">
+                        <img src="Image/etoilejaune.png" alt=""class="petitesetoiles">
+                        <img src="Image/etoilejaune.png" alt=""class="petitesetoiles">
+                        <img src="Image/etoilejaune.png" alt="" class="petitesetoiles"/>
+                        `;
+                        break;
+                    case 4:
+                        etoiles[0].innerHTML = `
+                        <img src="Image/etoilejaune.png" alt=""class="petitesetoiles">
+                        <img src="Image/etoilejaune.png" alt="" class="petitesetoiles">
+                        <img src="Image/etoilejaune.png" alt=""class="petitesetoiles">
+                        <img src="Image/etoilejaune.png" alt=""class="petitesetoiles">
+                        <img src="Image/etoilesgrise.png" alt="" class="petitesetoiles"/>'
+                        `;
+                        break;
+                    
+                    case 3:
+                        etoiles[0].innerHTML = `
+                        <img src="Image/etoilejaune.png" alt=""class="petitesetoiles">
+                        <img src="Image/etoilejaune.png" alt="" class="petitesetoiles">
+                        <img src="Image/etoilejaune.png" alt=""class="petitesetoiles">
+                        <img src="Image/etoilesgrise.png" alt=""class="petitesetoiles">
+                        <img src="Image/etoilesgrise.png" alt="" class="petitesetoiles"/>
+                        `;
+
+                        break;
+                    default:
+
+                }
+            }
+        }
+
+    }
+}
+
