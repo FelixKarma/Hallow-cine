@@ -11,6 +11,7 @@ footer {
     display: block;
     font-size: smaller;
     overflow-x: hidden;
+    min-height: 20vh;
     
 }
 

@@ -9,11 +9,20 @@ body {
 
   color: white
 }
+h2{
 
+  
+}
 .panier
 {
-color:white
+color:white;
 width: auto;
+}
+
+.produit{
+  border-bottom: 1px solid black;
+  /* background-color: red; */
+  
 }
 
 .caddie {
