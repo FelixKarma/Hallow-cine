@@ -75,9 +75,9 @@ div {
 .emailbutton {
     border-radius: 20px;
     height: 25px;
-    /* width: 380px; */
+    width: 90%;
     margin-top: 45px;
-    text-align: center;
+    
     
    
 }
@@ -123,7 +123,7 @@ div {
 form
  {
        width: 30%;
-    margin-top: 3%;
+        text-align: center;
     
 
     
