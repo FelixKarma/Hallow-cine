@@ -2,7 +2,7 @@ main {
 display: flex;
 flex-direction: row;
 justify-content: space-evenly;
-color: antiquewhite;
+color: white;
 
 }
 
@@ -24,12 +24,3 @@ align-self: flex-end;
 
 }
 
-.co {
-color: antiquewhite;
-
-}
-
-.inscr {
-color: antiquewhite;
-
-}

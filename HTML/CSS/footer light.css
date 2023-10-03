@@ -122,13 +122,13 @@ div {
 
 form
  {
-    justify-content: center;
-    width: 30%;
+       width: 30%;
     margin-top: 3%;
     
 
     
  }
  .cont {
-
+text-align: center;
+max-width: ;
  }
