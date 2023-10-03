@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="CSS/panier.css">
     <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&family=Roboto&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/b08defdd42.js" crossorigin="anonymous"></script>
+    
+    <script src="https://kit.fontawesome.com/b08defdd42.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -51,16 +53,83 @@
     <main>
         <div>
             <h1 class="panier">PANIER</h1>
-            <h4 class="panier">Shop or dead</h4><br>
+            <h2 class="panier">Shop or dead</h2>
+
+            <h5>Mes articles: </h5>
+            <div class="produit">
+                <img src="Image/Chat.png" alt="" height="100">
+                <p>Crâne de félin Antique 6780€</p>  <p>quantité:<span class="quantite"></span></p> 
+                <button onclick="suppproduit(1)">Supprimer</button>
+            </div>
+            <div class="produit">
+                <img src="Image/Spider.png" alt="" height="100">
+                <p>Migalle Goliath 3922€</p> <p>quantité:<span class="quantite"></span></p>
+                <button onclick="suppproduit(2)">Supprimer</button>
+            </div>
+            <div class="produit">
+                <img src="Image/papillion.png" alt="" height="100">
+                <p>Papillonus Blackus 2739€</p><p> quantité:<span class="quantite"></span></p>
+                <button onclick="suppproduit(3)">Supprimer</button>
+            </div>
+            <div class="produit">
+                <img src="Image/Scrane.png" alt="" height="100">
+                <p>Sceptre Barbare 5467€</p>  <p>quantité:<span class="quantite"></span></p>
+                <button onclick="suppproduit(4)">Supprimer</button> 
+            </div>
+            <div class="produit">
+                <img src="Image/lapin.png" alt="" height="100">
+                <p>Lapinou 7654€</p>  <p>quantité:<span class="quantite"></span></p>
+                <button onclick="suppproduit(5)">Supprimer</button> 
+            </div>
+            <div class="produit">
+                <img src="Image/piaf.png" alt="" height="100">
+                <p>Squelette de "DODO" 450€</p>  <p>quantité:<span class="quantite"></span></p>
+                <button onclick="suppproduit(6)">Supprimer</button> 
+            </div>
+            <div class="produit">
+                <img src="Image/Crane.png" alt="" height="100">
+                <p>Crane de Jacqouilles 8789€</p>  <p>quantité:<span class="quantite"></span></p>
+                <button onclick="suppproduit(7)">Supprimer</button>
+            </div>
+            <div class="produit">
+                <img src="Image/Scorpion.png" alt="" height="100">
+                <p>Scorpion 743€</p>  <p>quantité:<span class="quantite"></span></p>
+                <button onclick="suppproduit(8)">Supprimer</button>
+            </div>
+            <div class="produit">
+                <img src="Image/abeille.png" alt="" height="100">
+                <p>Abeille Royale 2876€</p>  <p>quantité:<span class="quantite"></span></p>
+                <button onclick="suppproduit(9)">Supprimer</button>
+            </div>
+            <div class="produit">
+                <img src="Image/champi.png" alt="" height="100">
+                <p>Champignon vénéneux 2154€</p>  <p>quantité:<span class="quantite"></span></p>
+                <button onclick="suppproduit(10)">Supprimer</button>
+            </div>
+            <div class="produit">
+                <img src="Image/Scootcureuil.png" alt="" height="100">
+                <p>Général écureuil 4569€</p>  <p>quantité:<span class="quantite"></span></p>
+                <button onclick="suppproduit(11)">Supprimer</button> 
+            </div>
+            <div class="produit">
+                <img src="Image/Elf.png" alt="" height="100">
+            <p>Taxidermie de "Legolas" 165€</p>  <p>quantité:<span class="quantite"></span></p>
+            <button onclick="suppproduit(12)">Supprimer</button>
+            </div>
 
             
-            <img src="Image/Caddie.jpg" alt="caddie" class="caddie" height="100">
-            <h4 class="panier">Total: </h4>
+            
+            
 
+            
+            <h4 class="panier">Total: <span id="totalpanier"></span></h4>
+            
         </div>
         <div class="mid">
-            <img src="Image/pagepanier.png" alt="scream">
-           <a href="confirmation.html"> <button type="valide" class="valide">VALIDEZ VOTRE ACHAT</button></a>
+            <img src="Image/pagepanier.png" alt="scream" >
+            <div>
+                <a href="confirmation.html"><button type="valide" class="valide">VALIDEZ VOTRE ACHAT</button></a>
+            </div>
         </div>
         <form action="#" method="post">
             <div>
@@ -227,8 +296,9 @@
         
         
         
-        </nav
-        >
+        </nav>
+    </footer>
+    <script src="JS/panier.js"></script>
             </footer>
 </body>
 
