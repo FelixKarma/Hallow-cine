@@ -19,7 +19,7 @@ for(let i = 0; i < produits.length; i++){
                 break;
             case 2: total = total +450*localStorage.getItem("produit"+(i+1));
                 break;
-            case 2: total = total +878ç*localStorage.getItem("produit"+(i+1));
+            case 2: total = total +8789*localStorage.getItem("produit"+(i+1));
                 break;
             case 2: total = total +3922*localStorage.getItem("produit"+(i+1));
                 break;
