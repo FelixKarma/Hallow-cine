@@ -11,7 +11,7 @@ body {
 }
 h2{
 
-  
+
 }
 .panier
 {
@@ -102,5 +102,8 @@ color: rgb(226, 226, 228);
 
   .valide 
   {font-size: larger;}
-
+p{
+  font-size:15px;
+  font-style:italic;
+}
  
