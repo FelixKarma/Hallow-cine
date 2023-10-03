@@ -11,6 +11,7 @@ footer {
     display: block;
     font-size: smaller;
     overflow-x: hidden;
+    min-height: 20vh;
     
 }
 
@@ -56,9 +57,12 @@ div {
 
 }
 
-button {
-    border-radius: 10px;
+.button {
+    border-radius: 20px;
     flex-grow: 1;
+    height: 25px;
+    width: 100%;
+    text-align: center;
 
 }
 
@@ -70,9 +74,10 @@ button {
 .emailbutton {
     border-radius: 20px;
     height: 25px;
-    width: 380px;
+    width: 90%;
     margin-top: 45px;
     text-align: center;
+    margin-top: 45px;
     
    
 
@@ -84,7 +89,7 @@ button {
     width: 100px;
     background-color: rgb(5, 5, 5);
     margin-top: 12px;
-    margin-left: 150px;
+    /* margin-left: 150px; */
     color: aliceblue;
     font-size: smaller;
 
@@ -101,7 +106,7 @@ button {
 }
 
 .adress {
-    max-width: 20%;
+    max-width: 30%;
     margin-top: 10px;
     text-align: left;
    
@@ -110,8 +115,16 @@ button {
 .newsletter {
     margin-top: 20px;
     margin-right: 35px ;
-    margin-left: 20px;
-    
-    
-
+    margin-left: 20px;   
 }
+
+form
+ {
+       width: 30%;
+        text-align: center;
+    
+ }
+ .cont {
+text-align: center;
+ margin-top: 45px;
+ }
