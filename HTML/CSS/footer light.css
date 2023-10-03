@@ -3,6 +3,7 @@ body {
     margin: 0;
     height:  133px;
     max-width: 1519.2px;
+    
 }
 
 
@@ -12,6 +13,7 @@ footer {
     font-size: smaller;
     overflow-x: hidden;
     min-height: 20vh;
+    
     
 }
 
@@ -64,6 +66,7 @@ div {
     height: 25px;
     width: 100%;
     text-align: center;
+   
 
 }
 
@@ -76,6 +79,8 @@ div {
     border-radius: 20px;
     height: 25px;
     width: 90%;
+    margin-top: 45px;
+    text-align: center;
     margin-top: 45px;
     
     
