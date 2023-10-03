@@ -1,0 +1,18 @@
+body{
+background-color: black;
+
+}
+
+
+main {
+display: flex;
+flex-direction: column;
+color: white;
+align-items: center;
+}
+
+h2 {
+font-size: xx-large;
+
+}
+
