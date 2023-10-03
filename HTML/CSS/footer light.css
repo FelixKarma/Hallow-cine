@@ -121,12 +121,14 @@ div {
 }
 
 form
- {display: flex;
-justify-content: center;
+ {
+    justify-content: center;
     width: 30%;
-    align-items: center;
+    margin-top: 3%;
+    
+
     
  }
  .cont {
-display: flex;
+
  }
