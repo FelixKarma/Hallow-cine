@@ -22,12 +22,16 @@ body {
 .container {
   display: flex;
   flex-direction: row;
-  margin-left: 43px;
+  margin-left: 75px;
   margin-top: 10px;
   justify-content: flex-start;
   justify-content: space-around;
   width: 35%;
 
+}
+
+.rei{
+  width: 200px;
 }
 
 select {

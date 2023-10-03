@@ -16,7 +16,7 @@ footer {
 }
 
 .logofooter {
-display: flex;
+    display: flex;
     height: 100px;
     width: 130px;
     margin-top: 7px;
@@ -58,9 +58,12 @@ div {
 
 }
 
-button {
-    border-radius: 10px;
+.button {
+    border-radius: 20px;
     flex-grow: 1;
+    height: 25px;
+    width: 100%;
+    text-align: center;
 
 }
 
@@ -72,12 +75,11 @@ button {
 .emailbutton {
     border-radius: 20px;
     height: 25px;
-    width: 380px;
+    /* width: 380px; */
     margin-top: 45px;
     text-align: center;
     
    
-
 }
 
 .buttonrejoindre {
@@ -86,9 +88,10 @@ button {
     width: 100px;
     background-color: rgb(247, 245, 245);
     margin-top: 12px;
-    margin-left: 150px;
+    /* margin-left: 150px; */
     color: rgb(0, 0, 0);
     font-size: smaller;
+
 
     
 }
@@ -104,19 +107,26 @@ button {
 }
 
 .adress {
-    max-width: 20%;
+    max-width: 30%;
     margin-top: 10px;
     text-align: left;
     color: white;
-   
-}
+   }
 
 .newsletter {
     margin-top: 20px;
     margin-right: 35px ;
     margin-left: 20px;
-    color: white;
-    
-    
-
+    color: white;  
 }
+
+form
+ {display: flex;
+justify-content: center;
+    width: 30%;
+    align-items: center;
+    
+ }
+ .cont {
+display: flex;
+ }
