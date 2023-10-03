@@ -10,18 +10,19 @@ body {
   color: white
 }
 h2{
-
-
+line-height:45px;
+font-family:"metal mania";
 }
 .panier
 {
 color:white;
 width: auto;
+margin-bottom:0px;
 }
 
 .produit{
   border-bottom: 1px solid black;
-  /* background-color: red; */
+  display:none;
   
 }
 
@@ -33,6 +34,7 @@ width: auto;
   height: 75px;
   width: 300px;
   align-self: flex-end;
+  border-radius:10px;;
 }
 
 .chemin {
