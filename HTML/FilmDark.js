@@ -68,7 +68,7 @@ function affichage() {
         let images = "";
 
         for (const film of films) {
-            images += `<a href="FilmDark.html#${film.titre}"><img src="${film.image}" alt="${film.titre}" /></a>`;
+            images += `<a href="${document.location.href.includes("light")? "Film light.html" : "FilmDark.html" }#${film.titre}"><img src="${film.image}" alt="${film.titre}" /></a>`;
         }
         affiche[0].innerHTML = images;
     }
