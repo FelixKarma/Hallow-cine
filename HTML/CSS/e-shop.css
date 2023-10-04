@@ -13,7 +13,120 @@ position:relative;
 bottom:0px;
 width: 100%;
 }
+
+.liencatalogue a {
+    text-align: left;
+    color: white;
+    font-size: smaller;
+    text-decoration: none;
+    
+  }
+  .liencatalogue {
+    margin-left: 80px;
+    margin-top: 5px;
+    text-align: left;
+}
+.plus, .moins, .nombre {
+    font-weight:bold !important;
+    font-size: 20px !important;
+
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+header a h1 {
+    font-size: 60px !important;
+}
+
+h4{
+    font-size: inherit !important;
+}
+
+.btnAjoutPanier{
+    background-color: rgb(161, 161, 161) !important;
+    color: white !important;
+}
+
+/* Media pour Charly */
+
 .cadi1 {
+    position: absolute;
+    top: 400px;
+    left: 381px;
+    opacity:0;
+}
+.cadi2 {
+    position: absolute;
+    top: 539px;
+    left: 305px;
+    opacity:0;
+}
+.cadi3 {
+    position: absolute;
+    top: 775px;
+    left: 268px;
+    opacity:0;
+}
+.cadi4 {
+    position: absolute;
+    top: 409px;
+    left: 742px;
+    opacity:0;
+}
+.cadi5 {
+    position: absolute;
+    top: 774px;
+    left: 409px;
+    opacity:0;
+}
+.cadi6 {
+    position: absolute;
+    top: 763px;
+    left: 725px;
+    opacity:0;
+}
+.cadi7 {
+    position: absolute;
+    top: 525px;
+    left: 852px;
+    opacity:0;
+}
+.cadi8 {
+    position: absolute;
+    top: 769px;
+    left: 843px;
+    opacity:0;
+}
+.cadi9 {
+    position: absolute;
+    top: 398px;
+    left: 1190px;
+    opacity:0;
+}
+.cadi10 {
+    position: absolute;
+    top: 525px;
+    left: 1309px;
+    opacity:0;
+}
+.cadi11 {
+    position: absolute;
+    top: 762px;
+    left: 1164px;
+    opacity:0;
+}
+.cadi12 {
+    position: absolute;
+    top: 760px;
+    left: 1331px;
+    opacity:0;
+}
+
+/* Media pour JULIE */
+@media only screen and (max-width: 1300px) {
+    .cadi1 {
     position: absolute;
     top: 335px;
     left: 320px;
@@ -85,44 +198,4 @@ width: 100%;
     left: 973px;
     opacity:0;
 }
-.cadi13 {
-    position: absolute;
-    top: 634px;
-    left: 1117px;
-    opacity:0;
-}
-
-.liencatalogue a {
-    text-align: left;
-    color: white;
-    font-size: smaller;
-    text-decoration: none;
-    
   }
-  .liencatalogue {
-    margin-left: 80px;
-    margin-top: 5px;
-    text-align: left;
-}
-.plus, .moins, .nombre {
-    font-weight:bold !important;
-    font-size: 20px !important;
-
-}
-
-header a {
-    color: white;
-    text-decoration: none;
-}
-header a h1 {
-    font-size: 60px !important;
-}
-
-h4{
-    font-size: inherit !important;
-}
-
-.btnAjoutPanier{
-    background-color: rgb(161, 161, 161) !important;
-    color: white !important;
-}
