@@ -48,9 +48,12 @@
 
   <main>
 
-    <figure> <a href="accueil.html">
-       <img class="push" src="Image/boutonrose.png" alt="boutonpush"></a> 
-      </figure>
+    <canvas id="confetti" >
+      <img class="push" src="Image/boutonrose.png" alt="boutonpush" onclick="timer()">
+    </canvas>
+    <img class="push" id="button" src="Image/boutonrose.png" alt="boutonpush" onclick="timer()">
+  </figure>
+
 
   </main>
 
@@ -120,8 +123,9 @@
     >
         </footer>
 
-
+<script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
 <script src="JS/accueil light.js"></script>
+
 
 </body>
 
