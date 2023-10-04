@@ -28,10 +28,11 @@ const colors = [
   // "#60005f",
   // "#48005f",
   // "#3d005e"
-  
+
   "#ffffff",
   "#2d3436"
 ];
+
 
 
 
@@ -41,23 +42,23 @@ circles.forEach(function (circle, index) {
   circle.style.backgroundColor = colors[index % colors.length];
 });
 
-window.addEventListener("mousemove", function(e){
+window.addEventListener("mousemove", function (e) {
   coords.x = e.clientX;
   coords.y = e.clientY;
-  
+
 });
 
 function animateCircles() {
-  
+
   let x = coords.x;
   let y = coords.y;
-  
+
   circles.forEach(function (circle, index) {
     circle.style.left = x - 12 + "px";
     circle.style.top = y - 12 + "px";
-    
+
     circle.style.scale = (circles.length - index) / circles.length;
-    
+
     circle.x = x;
     circle.y = y;
 
@@ -65,10 +66,36 @@ function animateCircles() {
     x += (nextCircle.x - x) * 0.3;
     y += (nextCircle.y - y) * 0.3;
   });
- 
+
   requestAnimationFrame(animateCircles);
 }
 
 animateCircles();
 
 // JS fin curseur souris
+function timer() {
+
+  setTimeout(function() {
+      document.location.assign("accueil light.html");
+  }, 5000);
+}
+
+const button = document.querySelector('#button');
+const canvas = document.querySelector('#confetti');
+
+
+
+
+const jsConfetti = new JSConfetti();
+
+button.addEventListener('click', () => {
+  jsConfetti.addConfetti({
+    emojis: ['🌈', '⚡️', '💥', '✨', '💫', '🌸'],
+  }).then(() => jsConfetti.addConfetti())
+  setTimeout(function () {
+    jsConfetti.addConfetti({
+      confettiNumber: 2500,
+    })
+  }, 3000);
+})
+
