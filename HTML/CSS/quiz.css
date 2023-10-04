@@ -88,3 +88,17 @@ main button:focus {
     margin-top: 5px;
     text-align: left;
   }
+          /* curseur */
+
+          .circle {
+            height: 24px;
+            width: 24px;
+            border-radius: 24px;
+            background-color: black;
+            position: fixed; 
+            top: 0;
+            left: 0;
+            pointer-events: none;
+            z-index: 99999999; }
+          
+          /* fin curseur css */
