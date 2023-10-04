@@ -8,6 +8,11 @@ body {
   background-color: black;
   color: rgb(4, 4, 4);
 }
+h2{
+  line-height:45px;
+  font-family:"metal mania";
+  color:white;
+  }
 
 .panier
 {
@@ -108,3 +113,9 @@ color: rgb(226, 226, 228);
   }
     .valide 
   {font-size: larger;}
+  
+.produit{
+  border-bottom: 1px solid black;
+  display:none;
+  
+}

@@ -110,6 +110,19 @@ width: 100%;
 
 }
 
+header a {
+    color: white;
+    text-decoration: none;
+}
+header a h1 {
+    font-size: 60px !important;
+}
+
 h4{
     font-size: inherit !important;
+}
+
+.btnAjoutPanier{
+    background-color: rgb(161, 161, 161) !important;
+    color: white !important;
 }
