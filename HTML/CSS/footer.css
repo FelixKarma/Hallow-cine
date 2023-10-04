@@ -12,6 +12,7 @@ footer {
     font-size: smaller;
     overflow-x: hidden;
     min-height: 20vh;
+    line-height: 1em;
     
 }
 
@@ -35,7 +36,6 @@ nav {
 
 div {
     text-align: center;
-    line-height: 1em;
 
 }
 
@@ -109,6 +109,7 @@ div {
     max-width: 30%;
     margin-top: 10px;
     text-align: left;
+   
    
 }
 
