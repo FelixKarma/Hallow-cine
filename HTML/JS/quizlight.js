@@ -1,5 +1,3 @@
-
-
 // JS curseur souris
 
 const coords = { x: 0, y: 0 };
@@ -29,8 +27,8 @@ const colors = [
   // "#48005f",
   // "#3d005e"
   
-  "#ffffff",
-  "#2d3436"
+  "#e84393",
+  "#fd79a8"
 ];
 
 

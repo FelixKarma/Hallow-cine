@@ -29,8 +29,8 @@ const colors = [
   // "#48005f",
   // "#3d005e"
   
-  "#ffffff",
-  "#2d3436"
+  "#be2edd",
+  "#ecf0f1"
 ];
 
 
