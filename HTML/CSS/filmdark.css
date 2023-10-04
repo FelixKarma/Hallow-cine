@@ -17,7 +17,7 @@ body {
   }
   
   p {
-    color: rgb(244, 244, 247);
+    
     text-align: left;
 
   }
@@ -50,6 +50,7 @@ body {
   .bg_synopsis
   {background-color: rgba(0, 0, 0, 0.704);
   margin-left: 30px;
+  color: white;
   
   }
   

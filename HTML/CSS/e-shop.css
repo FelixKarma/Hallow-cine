@@ -3,15 +3,20 @@ body{
     background-size:100%;
     overflow-x: hidden;
     background-repeat: no-repeat;
-    }
+    font-size: inherit none;
+}
+
+nav a button{
+    font-size: 16px !important;
+}
 
 main{
     height: 90vh;
 }
 footer{
-position:relative;
-bottom:0px;
-width: 100%;
+    position:relative;
+    bottom:0px;
+    width: 100%;
 }
 
 .liencatalogue a {
@@ -20,8 +25,8 @@ width: 100%;
     font-size: smaller;
     text-decoration: none;
     
-  }
-  .liencatalogue {
+}
+.liencatalogue {
     margin-left: 80px;
     margin-top: 5px;
     text-align: left;
@@ -29,7 +34,7 @@ width: 100%;
 .plus, .moins, .nombre {
     font-weight:bold !important;
     font-size: 20px !important;
-
+    
 }
 
 header a {
