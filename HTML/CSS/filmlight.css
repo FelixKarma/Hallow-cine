@@ -54,7 +54,7 @@ body {
   margin-left: 30px;
   }
   
-  .ba
+  .baButton
   {display: block;
   text-align: center;
   color: rgb(253, 253, 252);
@@ -74,6 +74,39 @@ body {
   align-items: flex-end;
   color: azure;}
   
+
+  .liencatalogue a {
+    text-align: left;
+    color: white;
+    font-size: smaller;
+    text-decoration: none;
+    
+  }
+  .liencatalogue {
+    
+  margin-left: 80px;
+  margin-top: 5px;
+  text-align: left;
+  margin-bottom: 5px;
+  }
+
+  .etoiles {
+    display: flex;
+    margin-left: 200px;
+    margin-top: 5px ;
+    margin-bottom:  5px;
+  }
+
+  .petitesetoiles {
+
+    max-width: 25px ;
+    max-height: 24px ;
+        
+}
+
+
+
+
 /* curseur */
 
 .circle {
@@ -88,6 +121,36 @@ body {
   z-index: 99999999; }
 
 /* fin curseur css */
+
+
+/* rajout */
+.liencatalogue a {
+  text-align: left;
+  color: white;
+  font-size: smaller;
+  text-decoration: none;
+}
+.liencatalogue {
+  
+margin-left: 80px;
+margin-top: 5px;
+text-align: left;
+margin-bottom: 5px;
+}
+
+.etoiles {
+  display: flex;
+  margin-left: 200px;
+  margin-top: 5px ;
+  margin-bottom:  5px;
+}
+
+.petitesetoiles {
+
+  max-width: 25px ;
+  max-height: 24px ;
+      
+}
   
   
   
