@@ -9,14 +9,24 @@ body {
 }
 
 main{
-    height: 100vh;
-    margin-bottom: 500px;
+    margin-bottom: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
+.tdc{
+    height: 500px;
+    width: auto;
+}
 
+#imb{
+    margin-top: 0;
+}
+
+/* .height{
+    height: 100vh;
+} */
 
 
 

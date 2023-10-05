@@ -151,7 +151,10 @@ submitBtn.addEventListener('click', () => {
 })
 
 const dejaVu = () => {
-  quiz.innerHTML = `<img src="Image/tete_de_con.png"> <br> <h1>Tu avais déjà les réponses imbéciles !</h1>`
+  const main = document.getElementsByTagName("main");
+  main[0].removeAttribute("height");
+  main[0].style.marginBottom = "0px";
+  quiz.innerHTML = `<img src="Image/tete_de_con.png" height="500"> <h1 id="imb">Tu avais déjà les réponses imbéciles !</h1>`
 }
 
 const reponse = () => {

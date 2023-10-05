@@ -77,14 +77,11 @@ submitBtn.addEventListener('click', () => {
 })
 
 const dejaVu = () => {
-    quiz.innerHTML = `<img src="Image/tete_de_con.png"> <br> <h1>Tu avais déjà les réponses imbéciles !</h1>`
+    quiz.innerHTML = `<img src="Image/tete_de_con.png" class="tdc"> <br> <h1>Tu avais déjà les réponses imbéciles !</h1>`
 }
 
 const reponse = () => {
-    document.body.style.overflowY = "scroll";
-    const footer = document.getElementsByTagName("footer")
-    footer[0].style.position = "static";
-    let articles = "";
+    
     for (let i=0;i<quizData.length;i++) {
         articles += `
        <article>

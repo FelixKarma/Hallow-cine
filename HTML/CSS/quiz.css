@@ -16,12 +16,13 @@ main{
     justify-content: space-between;
 }
 
-
-
-
-
 .quiz-hearder {
     padding: 4rem;
+}
+
+.tdc{
+    height: 500px;
+    width: auto;
 }
 
 h2 {
