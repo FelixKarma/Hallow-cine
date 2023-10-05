@@ -17,76 +17,90 @@ width: 100%;
 }
 
 /* Media pour Charly */
-.cadi1 {
+/* crane felin */
+.cadi1 { 
     position: absolute;
-    top: 390px;
-    left: 232px;
+    top: 466px;
+    left: 272px;
     opacity:0;
 }
+/* migalle goliath */
 .cadi2 {
     position: absolute;
-    top: 390px;
-    left: 350px;
+    top: 462px;
+    left: 416px;
     opacity:0;
 }
+/* papillon  */
 .cadi3 {
     position: absolute;
-    top: 568px;
-    left: 130px;
+    top: 677px;
+    left: 150px;
     opacity:0;
 }
+/* lapinou  */
 .cadi4 {
     position: absolute;
-    top: 395px;
-    left: 498px;
+    top: 468px;
+    left: 594px;
     opacity:0;
 }
+
+/* Sceptre Barbare */
 .cadi5 {
     position: absolute;
-    top: 577px;
-    left: 333px;
+    top: 686px;
+    left: 396px;
     opacity:0;
 }
+/* squelette de dodo */
 .cadi6 {
     position: absolute;
-    top: 398px;
-    left: 644px;
+    top: 474px;
+    left: 769px;
     opacity:0;
 }
+
+/* crane de jacquouille */
 .cadi7 {
     position: absolute;
-    top: 580px;
-    left: 510px;
+    top: 692px;
+    left: 608px;
     opacity:0;
 }
+/* Scorpion */
 .cadi8 {
     position: absolute;
-    top: 581px;
-    left: 704px;
+    top: 697px;
+    left: 842px;
     opacity:0;
 }
+/* abeille royale */
 .cadi9 {
     position: absolute;
-    top: 392px;
-    left: 1011px;
+    top: 467px;
+    left: 1213px;
     opacity:0;
 }
+/* champignon */
 .cadi10 {
     position: absolute;
-    top: 388px;
-    left: 1117px;
+    top: 462px;
+    left: 1339px;
     opacity:0;
 }
+/* ecureuil */
 .cadi11 {
     position: absolute;
-    top: 581px;
-    left: 891px;
+    top: 693px;
+    left: 1064px;
     opacity:0;
 }
+/* taxidermie */
 .cadi12 {
     position: absolute;
-    top: 594px;
-    left: 1097px;
+    top: 707px;
+    left: 1313px;
     opacity:0;
 }
 .plus, .moins, .nombre {
