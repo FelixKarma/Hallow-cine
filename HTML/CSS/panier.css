@@ -6,8 +6,8 @@ main {
 
 body {
   background-color: black;
-  color: rgb(4, 4, 4);
 }
+
 h2{
   line-height:45px;
   font-family:"metal mania";
@@ -113,4 +113,8 @@ color: rgb(226, 226, 228);
   border-bottom: 1px solid black;
   display:none;
   
+}
+
+main p {
+  color: white;
 }
