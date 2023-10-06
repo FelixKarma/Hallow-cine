@@ -77,7 +77,7 @@ submitBtn.addEventListener('click', () => {
 })
 
 const dejaVu = () => {
-    quiz.innerHTML = `<img src="Image/tete_de_con.png" class="tdc"> <br> <h1>Tu avais déjà les réponses imbéciles !</h1>`
+    quiz.innerHTML = `<img src="Image/tete_de_con.png" class="tdc"> <br> <h1>Tu avais déjà les réponses, imbécile !</h1>`
 }
 
 const reponse = () => {
