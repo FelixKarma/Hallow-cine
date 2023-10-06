@@ -71,6 +71,7 @@ submitBtn.addEventListener('click', () => {
             <h2>Vous avez répondu correctement à ${score}/${quizData.length} questions !
             <button onclick="location.reload()">Reload</button>
             <button onclick="reponse()">Voir les réponses</button>
+            ${score == 6 ? '<iframe width="560" height="315" src="https://www.youtube.com/embed/CxR1w7xXBfk?si=_irI--GfR6sgpErj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>': ""}
             `
         }
     }
